@@ -1,0 +1,616 @@
+{
+  "config_fingerprint": "6b64f7a874d9b944d08ac8c2a2465f162a2ac9826e763f9d732ab0fd1d94f1e8",
+  "examples": [
+    {
+      "name": "paid_raffle",
+      "sanitized_text": "Оплати участие 5000 тг. Рандомайзер выберет победителя.",
+      "queue_score": 85.0,
+      "queue_level": "high",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [
+            {
+              "feature_id": "lottery.payment",
+              "track": "lottery",
+              "contribution": 30.0,
+              "evidence": [
+                {
+                  "source_id": "8a65b39a-2390-43ba-a3fd-5d7ee0f75d87",
+                  "quote": "Оплати участие",
+                  "span": {
+                    "start": 0,
+                    "end": 14
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки оплаты участия"
+            },
+            {
+              "feature_id": "lottery.random_selection",
+              "track": "lottery",
+              "contribution": 25.0,
+              "evidence": [
+                {
+                  "source_id": "8a65b39a-2390-43ba-a3fd-5d7ee0f75d87",
+                  "quote": "Рандомайзер",
+                  "span": {
+                    "start": 24,
+                    "end": 35
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки случайного выбора"
+            },
+            {
+              "feature_id": "lottery.paid_random",
+              "track": "lottery",
+              "contribution": 30.0,
+              "evidence": [
+                {
+                  "source_id": "8a65b39a-2390-43ba-a3fd-5d7ee0f75d87",
+                  "quote": "Оплати участие",
+                  "span": {
+                    "start": 0,
+                    "end": 14
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "8a65b39a-2390-43ba-a3fd-5d7ee0f75d87",
+                  "quote": "Рандомайзер",
+                  "span": {
+                    "start": 24,
+                    "end": 35
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Оплата и случайный выбор рядом в тексте"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 85.0,
+          "level": "high"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        }
+      ]
+    },
+    {
+      "name": "free_contest",
+      "sanitized_text": "Участие без оплаты. Рандомайзер выберет победителя.",
+      "queue_score": 0.0,
+      "queue_level": "low",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [
+            {
+              "feature_id": "lottery.random_selection",
+              "track": "lottery",
+              "contribution": 25.0,
+              "evidence": [
+                {
+                  "source_id": "1effc138-fd10-47ca-8a39-f90c4dd56508",
+                  "quote": "Рандомайзер",
+                  "span": {
+                    "start": 20,
+                    "end": 31
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки случайного выбора"
+            },
+            {
+              "feature_id": "lottery.free_participation",
+              "track": "lottery",
+              "contribution": -40.0,
+              "evidence": [
+                {
+                  "source_id": "1effc138-fd10-47ca-8a39-f90c4dd56508",
+                  "quote": "Участие без оплаты",
+                  "span": {
+                    "start": 0,
+                    "end": 18
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Явно указано бесплатное участие"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 15.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        }
+      ]
+    },
+    {
+      "name": "casino_promotion",
+      "sanitized_text": "Казино. Переходи по ссылке, пополни депозит. Мой выигрыш! Промокод BONUS42.",
+      "queue_score": 100.0,
+      "queue_level": "high",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [
+            {
+              "feature_id": "casino.gambling",
+              "track": "casino",
+              "contribution": 30.0,
+              "evidence": [
+                {
+                  "source_id": "d3ee297c-6336-42e8-bfa0-69f4cdb8abb9",
+                  "quote": "Казино",
+                  "span": {
+                    "start": 0,
+                    "end": 6
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Упоминание игры на деньги"
+            },
+            {
+              "feature_id": "casino.promotion",
+              "track": "casino",
+              "contribution": 25.0,
+              "evidence": [
+                {
+                  "source_id": "d3ee297c-6336-42e8-bfa0-69f4cdb8abb9",
+                  "quote": "Переходи",
+                  "span": {
+                    "start": 8,
+                    "end": 16
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Призыв перейти, зарегистрироваться или внести депозит"
+            },
+            {
+              "feature_id": "casino.gambling_promotion",
+              "track": "casino",
+              "contribution": 20.0,
+              "evidence": [
+                {
+                  "source_id": "d3ee297c-6336-42e8-bfa0-69f4cdb8abb9",
+                  "quote": "Казино",
+                  "span": {
+                    "start": 0,
+                    "end": 6
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "d3ee297c-6336-42e8-bfa0-69f4cdb8abb9",
+                  "quote": "Переходи",
+                  "span": {
+                    "start": 8,
+                    "end": 16
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Игра на деньги и её продвижение рядом"
+            },
+            {
+              "feature_id": "casino.payout_claim",
+              "track": "casino",
+              "contribution": 15.0,
+              "evidence": [
+                {
+                  "source_id": "d3ee297c-6336-42e8-bfa0-69f4cdb8abb9",
+                  "quote": "Мой выигрыш",
+                  "span": {
+                    "start": 45,
+                    "end": 56
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Демонстрация выигрыша или вывода"
+            },
+            {
+              "feature_id": "casino.referral",
+              "track": "casino",
+              "contribution": 10.0,
+              "evidence": [
+                {
+                  "source_id": "d3ee297c-6336-42e8-bfa0-69f4cdb8abb9",
+                  "quote": "Промокод",
+                  "span": {
+                    "start": 58,
+                    "end": 66
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Промокод или партнёрский переход рядом с игрой"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 100.0,
+          "level": "high"
+        },
+        {
+          "track": "investment",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        }
+      ]
+    },
+    {
+      "name": "investment_recruitment",
+      "sanitized_text": "Гарантированный доход. Пригласи друзей. Успей! Перевод.",
+      "queue_score": 100.0,
+      "queue_level": "high",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [
+            {
+              "feature_id": "investment.profit_promise",
+              "track": "investment",
+              "contribution": 45.0,
+              "evidence": [
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "Гарантированный",
+                  "span": {
+                    "start": 0,
+                    "end": 15
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "доход",
+                  "span": {
+                    "start": 16,
+                    "end": 21
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки обещания дохода или быстрого возврата"
+            },
+            {
+              "feature_id": "investment.recruitment",
+              "track": "investment",
+              "contribution": 20.0,
+              "evidence": [
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "Пригласи",
+                  "span": {
+                    "start": 23,
+                    "end": 31
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Призыв привлекать новых участников"
+            },
+            {
+              "feature_id": "investment.urgency",
+              "track": "investment",
+              "contribution": 10.0,
+              "evidence": [
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "Успей",
+                  "span": {
+                    "start": 40,
+                    "end": 45
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Давление сроком или числом мест"
+            },
+            {
+              "feature_id": "investment.payment_evidence",
+              "track": "investment",
+              "contribution": 10.0,
+              "evidence": [
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "Перевод",
+                  "span": {
+                    "start": 47,
+                    "end": 54
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Упоминание выплат или личного перевода"
+            },
+            {
+              "feature_id": "investment.promise_recruitment",
+              "track": "investment",
+              "contribution": 25.0,
+              "evidence": [
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "Гарантированный",
+                  "span": {
+                    "start": 0,
+                    "end": 15
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "7a832036-25f7-4b5d-86c1-35a234cf2bc0",
+                  "quote": "Пригласи",
+                  "span": {
+                    "start": 23,
+                    "end": 31
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Обещание дохода и привлечение участников рядом"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": -10.0,
+          "score": 100.0,
+          "level": "high"
+        }
+      ]
+    },
+    {
+      "name": "news_report",
+      "sanitized_text": "Новости: казино рекламирует промокод, переходи и пополни депозит.",
+      "queue_score": 0.0,
+      "queue_level": "low",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [
+            {
+              "feature_id": "lottery.reporting_context",
+              "track": "lottery",
+              "contribution": -30.0,
+              "evidence": [
+                {
+                  "source_id": "f712a5a8-c18c-4b88-9eda-c66d3152e1a1",
+                  "quote": "Новости",
+                  "span": {
+                    "start": 0,
+                    "end": 7
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Контекст новости или учебного разбора"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 30.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [
+            {
+              "feature_id": "casino.reporting_context",
+              "track": "casino",
+              "contribution": -40.0,
+              "evidence": [
+                {
+                  "source_id": "f712a5a8-c18c-4b88-9eda-c66d3152e1a1",
+                  "quote": "Новости",
+                  "span": {
+                    "start": 0,
+                    "end": 7
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Контекст новости или учебного разбора"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 40.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [
+            {
+              "feature_id": "investment.reporting_context",
+              "track": "investment",
+              "contribution": -40.0,
+              "evidence": [
+                {
+                  "source_id": "f712a5a8-c18c-4b88-9eda-c66d3152e1a1",
+                  "quote": "Новости",
+                  "span": {
+                    "start": 0,
+                    "end": 7
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Контекст новости или учебного разбора"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 40.0,
+          "score": 0.0,
+          "level": "low"
+        }
+      ]
+    },
+    {
+      "name": "educational_offer",
+      "sanitized_text": "Учебный курс: гарантированный доход, пригласи друзей.",
+      "queue_score": 90.0,
+      "queue_level": "high",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [
+            {
+              "feature_id": "investment.profit_promise",
+              "track": "investment",
+              "contribution": 45.0,
+              "evidence": [
+                {
+                  "source_id": "e041352d-7a5d-4d31-aae3-9f3f6f6bf4a3",
+                  "quote": "гарантированный",
+                  "span": {
+                    "start": 14,
+                    "end": 29
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "e041352d-7a5d-4d31-aae3-9f3f6f6bf4a3",
+                  "quote": "доход",
+                  "span": {
+                    "start": 30,
+                    "end": 35
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки обещания дохода или быстрого возврата"
+            },
+            {
+              "feature_id": "investment.recruitment",
+              "track": "investment",
+              "contribution": 20.0,
+              "evidence": [
+                {
+                  "source_id": "e041352d-7a5d-4d31-aae3-9f3f6f6bf4a3",
+                  "quote": "пригласи",
+                  "span": {
+                    "start": 37,
+                    "end": 45
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Призыв привлекать новых участников"
+            },
+            {
+              "feature_id": "investment.promise_recruitment",
+              "track": "investment",
+              "contribution": 25.0,
+              "evidence": [
+                {
+                  "source_id": "e041352d-7a5d-4d31-aae3-9f3f6f6bf4a3",
+                  "quote": "гарантированный",
+                  "span": {
+                    "start": 14,
+                    "end": 29
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "e041352d-7a5d-4d31-aae3-9f3f6f6bf4a3",
+                  "quote": "пригласи",
+                  "span": {
+                    "start": 37,
+                    "end": 45
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Обещание дохода и привлечение участников рядом"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "cap_adjustment": 0.0,
+          "score": 90.0,
+          "level": "high"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "counts": {
+    "fn": 20,
+    "tn": 192,
+    "tp": 28
+  },
+  "errors": [
+    {
+      "case_id": "5653ceb8-fc32-5a60-afac-a7c7c7f8fc49",
+      "scenario": "casino_promotion",
+      "language": "kk",
+      "style": "translit",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nStrimde oyyn slottaryn aynaldyramyn, tenggerim 2000 tenggege osti. Tomende zholdama siltemem, shotty\nSYN-a43cb564 kodymen toltyr. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*",
+      "variants": [
+        "synthetic test data strimde oyyn slottaryn aynaldyramyn, tenggerim 2000 tenggege osti. tomende zholdama siltemem, shotty syn-a43cb564 kodymen toltyr. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*",
+        "сйнтхетиc тест дата стримде оййн слоттарйн айналдйрамйн, теңгерим 2000 теңгеге ости. томенде жолдама силтемем, шоттй syn-a43cb564 кодймен толтйр. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*",
+        "сйнтхетіc тест дата стрімде өййн слөттарйн айналдйрамйн, теңгерім 2000 теңгеге өсті. төменде жөлдама сілтемем, шөттй syn-a43cb564 көдймен төлтйр. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*"
+      ]
+    },
+    {
+      "case_id": "b2336119-38b8-50c0-8384-c1b0f7078f4d",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "slang",
+      "kind": "text",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 3000 тг и новых игроков. Куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. SYN-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* Ребят, детали выше.",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 3000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* ребят, детали выше.",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 3000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* ребят, детали выше.",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 3000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "85459149-70a6-5a22-ab42-a1b4443787fe",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "translit",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSeriktes kazino 1000 tengge toltyrghangha zhane zhanga oyynshylargha toleydi. Kurator bir taulikte aqshany екі\neseleuge kepil beredi, merzim keshke deyin. SYN-91506904 https://go-91506904e9035f4aaa080d4afeb35094 test/r",
+      "variants": [
+        "synthetic test data seriktes kazino 1000 tengge toltyrghangha zhane zhanga oyynshylargha toleydi. kurator bir taulikte aqshany екі eseleuge kepil beredi, merzim keshke deyin. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094 test/r",
+        "сйнтхетиc тест дата сериктес казино 1000 теңге толтйрғаңха жане жаңа оййншйларға толейди. куратор бир тауликте ақшанй екі еселеуге кепил береди, мерзим кешке дейин. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094 тест/р",
+        "сйнтхетіc тест дата серіктес казінө 1000 теңге төлтйрғаңха жане жаңа өййншйларға төлейді. кұратөр бір таұлікте ақшанй екі еселеұге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094 тест/р"
+      ]
+    },
+    {
+      "case_id": "d77c8b77-92da-5081-9b00-a81db016dcf9",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "obfuscated",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nК@зино-партнёр платит за пополнение 1500 тг и новых игроков. Куратор гарантирует удвоение денег за сутки,\nсрок до вечера. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094 test/offer?ref=9 1506904",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 1500 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 test/offer?ref=9 1506904",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 1500 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 тест/оффер?реф=9 1506904",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 1500 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 тест/өффер?реф=9 1506904"
+      ]
+    },
+    {
+      "case_id": "c4cef77f-835c-58eb-a234-9c42748543ab",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "obfuscated",
+      "kind": "transcript",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nК@зин0-партнёр платит за пополнение 3500 тг и новых игроков. Куратор гарантирует удвоение денег за сутки, срок до вечера. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 3500 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 3500 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 3500 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "eac0b81e-ecb4-5069-8a68-f1d9904474b5",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "translit",
+      "kind": "text",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSeriktes kazino 3000 tengge toltyrghangha zhane zhanga oyynshylargha toleydi. Kurator bir taulikte aqshany eki eseleuge kepil beredi, merzim keshke deyin. SYN-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+      "variants": [
+        "synthetic test data seriktes kazino 3000 tengge toltyrghangha zhane zhanga oyynshylargha toleydi. kurator bir taulikte aqshany eki eseleuge kepil beredi, merzim keshke deyin. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+        "сйнтхетиc тест дата сериктес казино 3000 теңге толтйрғаңха жане жаңа оййншйларға толейди. куратор бир тауликте ақшанй еки еселеуге кепил береди, мерзим кешке дейин. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+        "сйнтхетіc тест дата серіктес казінө 3000 теңге төлтйрғаңха жане жаңа өййншйларға төлейді. кұратөр бір таұлікте ақшанй екі еселеұге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*"
+      ]
+    },
+    {
+      "case_id": "c7441bda-70be-5295-ba16-b65346fe108a",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "plain",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 4000 тг и новых игроков. Куратор бір тәулікте ақшаны екі еселеуге кепіл\nбереді, мерзім кешке дейін. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .test/offer?ref=9 1506904",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 4000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .test/offer?ref=9 1506904",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 4000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .тест/оффер?реф=9 1506904",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 4000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .тест/өффер?реф=9 1506904"
+      ]
+    },
+    {
+      "case_id": "2368302e-fb0d-57f8-b847-7117d2739f8e",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "translit",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nKazino-partnyor platit za popolnenie 3500 tg i novykh igrokov. Kurator bir taulikte aqshany екі eseleuge Кері! beredi,\nmerzim keshke deyin. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=* 1506904",
+      "variants": [
+        "synthetic test data kazino-partnyor platit za popolnenie 3500 tg i novykh igrokov. kurator bir taulikte aqshany екі eseleuge кері! beredi, merzim keshke deyin. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=* 1506904",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 3500 тг и новйх игроков. куратор бир тауликте ақшанй екі еселеуге кері! береди, мерзим кешке дейин. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=* 1506904",
+        "сйнтхетіc тест дата казінө-партнёр платіт за пөпөлненіе 3500 тг і нөвйх ігрөкөв. кұратөр бір таұлікте ақшанй екі еселеұге кері! береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=* 1506904"
+      ]
+    },
+    {
+      "case_id": "c1b0c502-d251-5f3e-a01f-b0adad0ce01f",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "obfuscated",
+      "kind": "text",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nК@зин0-партнёр платит за пополнение 2500 тг и новых игроков. Куратор бір тәулікте а қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 2500 тг и новых игроков. куратор бір тәулікте а қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 2500 тг и новых игроков. куратор бір тәулікте а қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 2500 тг и новых игроков. куратор бір тәулікте а қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "8c7922f5-493b-59d2-af9e-dab0b39f2348",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "plain",
+      "kind": "text",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 2000 тг и новых игроков. Куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 2000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 2000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 2000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "56a6fe5b-7aad-5cc6-8d61-f744696aee34",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "obfuscated",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nК@зино-партнёр платит за пополнение 4500 тг и новых игроков. Куратор бір тәулікте a қ ш аны екі еселеуге кепіл\nбереді, мерзім кешке дейін. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .test/offer?ref=9 1506904",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 4500 тг и новых игроков. куратор бір тәулікте a қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .test/offer?ref=9 1506904",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 4500 тг и новых игроков. куратор бір тәулікте а қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .тест/оффер?реф=9 1506904",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 4500 тг и новых игроков. куратор бір тәулікте а қ ш аны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 .тест/өффер?реф=9 1506904"
+      ]
+    },
+    {
+      "case_id": "2a2a56b4-f5ec-5421-80be-9a3b0325c7c4",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "plain",
+      "kind": "transcript",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 3000 тг и новых игроков. Куратор гарантирует удвоение денег за сутки, срок до вечера. SYN-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 3000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 3000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 3000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*"
+      ]
+    },
+    {
+      "case_id": "a1eb83a7-334b-5faa-8484-217d6edb6b77",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "slang",
+      "kind": "transcript",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 1000 тг и новых игроков. Куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. SYN-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* Ребят, детали выше.",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 1000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* ребят, детали выше.",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 1000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* ребят, детали выше.",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 1000 тг и новых игроков. куратор бір тәулікте ақшаны екі еселеуге кепіл береді, мерзім кешке дейін. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/* ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "0be81bd9-3267-5819-9bf0-ae75f1c82de1",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "plain",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 1000 тг и новых игроков. Куратор гарантирует удвоение денег за сутки,\nсрок до вечера. SYN-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 1000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 1000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 1000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://go-91506904e9035f4aaa080d4afeb35094.test/*"
+      ]
+    },
+    {
+      "case_id": "227ca53f-8513-5510-a4fc-20d59005a902",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "slang",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 2000 тг и новых игроков. Куратор гарантирует удвоение денег за сутки,\nсрок до вечера. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094 test/offer?ref=9 1506904 Ребят,\nдетали выше.",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 2000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 test/offer?ref=9 1506904 ребят, детали выше.",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 2000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 тест/оффер?реф=9 1506904 ребят, детали выше.",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 2000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094 тест/өффер?реф=9 1506904 ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "7103218a-eeb5-5582-a736-0e82744d1a1c",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "translit",
+      "kind": "text",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nKazino-partnyor platit za popolnenie 4500 tg i novykh igrokov. Kurator garantiruet udvoenie deneg za sutki, srok do vechera. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kazino-partnyor platit za popolnenie 4500 tg i novykh igrokov. kurator garantiruet udvoenie deneg za sutki, srok do vechera. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 4500 тг и новйх игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетіc тест дата казінө-партнёр платіт за пөпөлненіе 4500 тг і нөвйх ігрөкөв. кұратөр гарантірұет ұдвөеніе денег за сұткі, срөк дө вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "2285b8c2-a697-5558-ab05-80712b2257c2",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "translit",
+      "kind": "transcript",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nKazino-partnyor platit za popolnenie 1500 tg i novykh igrokov. Kurator bir taulikte aqshany eki eseleuge kepil beredi, merzim keshke deyin. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kazino-partnyor platit za popolnenie 1500 tg i novykh igrokov. kurator bir taulikte aqshany eki eseleuge kepil beredi, merzim keshke deyin. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 1500 тг и новйх игроков. куратор бир тауликте ақшанй еки еселеуге кепил береди, мерзим кешке дейин. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетіc тест дата казінө-партнёр платіт за пөпөлненіе 1500 тг і нөвйх ігрөкөв. кұратөр бір таұлікте ақшанй екі еселеұге кепіл береді, мерзім кешке дейін. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "384e4006-1ba8-5c7a-b9d8-941433b3b778",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "slang",
+      "kind": "text",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nКазино-партнёр платит за пополнение 4000 тг и новых игроков. Куратор гарантирует удвоение денег за сутки, срок до вечера. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** Ребят, детали выше.",
+      "variants": [
+        "synthetic test data казино-партнёр платит за пополнение 4000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 4000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетіc тест дата казино-партнёр платит за пополнение 4000 тг и новых игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=******** ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "8ca61fd5-81f1-5f36-bfa2-7911c6e13583",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "translit",
+      "kind": "transcript",
+      "expected": true,
+      "score": 30.0,
+      "features": [
+        "casino.gambling"
+      ],
+      "text": "SYNTHETIC TEST DATA\nKazino-partnyor platit za popolnenie 2500 tg i novykh igrokov. Kurator garantiruet udvoenie deneg za sutki, srok do vechera. SYN-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kazino-partnyor platit za popolnenie 2500 tg i novykh igrokov. kurator garantiruet udvoenie deneg za sutki, srok do vechera. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетиc тест дата казино-партнёр платит за пополнение 2500 тг и новйх игроков. куратор гарантирует удвоение денег за сутки, срок до вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********",
+        "сйнтхетіc тест дата казінө-партнёр платіт за пөпөлненіе 2500 тг і нөвйх ігрөкөв. кұратөр гарантірұет ұдвөеніе денег за сұткі, срөк дө вечера. syn-91506904 https://d-91506904e9035f4aaa080d4afeb35094.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "9e2cbe60-c526-57ee-bc64-3c5d2d3a4aab",
+      "scenario": "casino_promotion",
+      "language": "kk",
+      "style": "translit",
+      "kind": "text",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nStrimde oyyn slottaryn aynaldyramyn, tenggerim 6000 tenggege osti. Tomende zholdama siltemem, shotty SYN-a43cb564 kodymen toltyr. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*",
+      "variants": [
+        "synthetic test data strimde oyyn slottaryn aynaldyramyn, tenggerim 6000 tenggege osti. tomende zholdama siltemem, shotty syn-a43cb564 kodymen toltyr. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*",
+        "сйнтхетиc тест дата стримде оййн слоттарйн айналдйрамйн, теңгерим 6000 теңгеге ости. томенде жолдама силтемем, шоттй syn-a43cb564 кодймен толтйр. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*",
+        "сйнтхетіc тест дата стрімде өййн слөттарйн айналдйрамйн, теңгерім 6000 теңгеге өсті. төменде жөлдама сілтемем, шөттй syn-a43cb564 көдймен төлтйр. https://go-a43cb564afca5520b99b7be3b16aa68b.test/*"
+      ]
+    }
+  ]
+}

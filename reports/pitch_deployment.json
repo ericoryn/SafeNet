@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-10-25T16:23:28.030Z",
+  "deployment": "https://safenet-9dp64h3lh-ericoryns-projects.vercel.app",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/app.js",
+      "status": 200
+    },
+    {
+      "path": "/i18n.js",
+      "status": 200
+    },
+    {
+      "path": "/locales/kk.json",
+      "status": 200
+    },
+    {
+      "path": "/backend/health",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases?limit=100",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases/7469314f-bc4d-4590-9f6b-916300e4b71a/decisions",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases/eb6903f4-d9b2-44d3-849e-4a3481f2b8be/graph",
+      "status": 200
+    },
+    {
+      "path": "/docs/CHECKLIST.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/reports/evaluation-v3/metrics.json",
+      "status": 200
+    },
+    {
+      "path": "/docs/presentation/README.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/ROADMAP.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/DEMO.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/metrics.json",
+      "status": 200
+    },
+    {
+      "path": "/docs/reports/evaluation/metrics.json",
+      "status": 200
+    },
+    {
+      "path": "/docs/presentation/SafeNet_KZ_Защита.pdf",
+      "status": 200,
+      "bytes_match": true
+    },
+    {
+      "path": "/docs/presentation/SafeNet_KZ_Защита.pptx",
+      "status": 200,
+      "bytes_match": true
+    }
+  ],
+  "anonymous_status": 302,
+  "languages": [
+    "ru",
+    "kk"
+  ],
+  "config_fingerprint": "3ef5e98c40252a465b7892d712d650c7aca2f7cc8bbe8d73d8c77a3b62d889c3",
+  "prior_decisions_preserved": true,
+  "historical_graph_preserved": true,
+  "mutating_requests": false,
+  "production_url": "https://safenet-kz.vercel.app",
+  "deployment_id": "dpl_6KSruby5uJTdTzKzzUrzch6PSZpP",
+  "promoted": true
+}

@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-25T14:48:58.196Z",
+  "deployment": "https://safenet-l2td4v1d1-ericoryns-projects.vercel.app",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/app.js",
+      "status": 200
+    },
+    {
+      "path": "/ui-model.js",
+      "status": 200
+    },
+    {
+      "path": "/backend/health",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases?limit=100",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases/7469314f-bc4d-4590-9f6b-916300e4b71a/decisions",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases/eb6903f4-d9b2-44d3-849e-4a3481f2b8be/graph",
+      "status": 200
+    },
+    {
+      "path": "/docs/reports/UI_REDESIGN.html",
+      "status": 200
+    }
+  ],
+  "anonymous_status": 302,
+  "removed_labels_verified": true,
+  "separate_graph_verified": true,
+  "preview_sanitized": true,
+  "prior_decisions_preserved": true,
+  "graph_nodes": 3,
+  "graph_edges": 2,
+  "mutating_requests": false
+}

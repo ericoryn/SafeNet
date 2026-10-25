@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="SafeNet KZ: проверка публикаций, объяснение признаков риска и анализ связей."
+    />
+    <meta name="theme-color" content="#f5f8f7" />
+    <title data-i18n="SafeNet KZ · Материалы">SafeNet KZ · Материалы</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/app.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content"><span data-i18n="Перейти к содержимому">Перейти к содержимому</span></a>
+    <aside class="sidebar">
+      <a class="brand" href="#materials" aria-label="SafeNet KZ — материалы"
+         data-i18n-aria-label="SafeNet KZ — материалы"><svg viewBox="0 0 32 36" aria-hidden="true">
+          <path
+            d="M16 2 29 7v10c0 8-6 13-13 17C9 30 3 25 3 17V7Z"
+            fill="currentColor"
+          />
+          <path
+            d="m10 18 4 4 9-11"
+            fill="none"
+            stroke="white"
+            stroke-width="2.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          /></svg><span>SafeNet <b>KZ</b></span></a>
+      <nav class="main-nav" aria-label="Разделы приложения" data-i18n-aria-label="Разделы приложения">
+        <a href="#materials" data-view="materials" aria-current="page"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="3" />
+            <path d="M8 9h8M8 13h8M8 17h5" /></svg><span><span data-i18n="Материалы">Материалы</span></span><span class="nav-count" id="nav-count">—</span></a>
+        <a href="#graph" data-view="graph"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m7 7 10 3M7 8l3 10m7-6-6 6" />
+            <circle cx="6" cy="6" r="3" />
+            <circle cx="18" cy="11" r="3" />
+            <circle cx="10" cy="19" r="3" /></svg><span><span data-i18n="Граф связей">Граф связей</span></span></a>
+        <a href="#overview" data-view="overview"
+          ><svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 19V9m7 10V5m7 14v-7" /></svg><span><span data-i18n="Сводка">Сводка</span></span></a>
+      </nav>
+    </aside>
+    <div class="app-body">
+      <header class="topbar">
+        <span id="breadcrumb"><span data-i18n="Материалы">Материалы</span></span>
+        <div class="topbar-end">
+          <div class="language-switch" role="group" aria-label="Язык интерфейса" data-i18n-aria-label="Язык интерфейса"><button type="button" data-locale="ru" lang="ru" aria-pressed="true">Русский</button><button type="button" data-locale="kk" lang="kk" aria-pressed="false">Қазақша</button></div><button class="primary" id="open-upload">
+            <span aria-hidden="true">+</span><span data-i18n="Добавить материал"> Добавить материал
+          </span></button>
+        </div>
+      </header>
+      <div id="message" role="status" aria-live="polite"></div>
+      <noscript
+        ><p class="noscript"><span data-i18n="Для работы очереди и графа включите JavaScript.">
+          Для работы очереди и графа включите JavaScript.
+        </span></p></noscript>
+      <main id="main-content">
+        <section
+          id="materials-view"
+          class="view"
+          aria-labelledby="materials-title"
+        >
+          <div class="page-heading">
+            <div>
+              <h1 id="materials-title"><span data-i18n="Материалы">Материалы</span></h1>
+              <p id="queue-summary" class="muted"><span data-i18n="Публикации и сообщения на проверку">
+                Публикации и сообщения на проверку
+              </span></p>
+            </div>
+            <div class="toolbar">
+              <a
+                class="button secondary"
+                href="/backend/exports"
+                download="safenet.jsonl"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3v12m-4-4 4 4 4-4M5 17v4h14v-4" /></svg><span data-i18n="Экспорт">Экспорт</span></a><button
+                id="refresh"
+                class="icon-button"
+                aria-label="Обновить материалы"
+                title="Обновить"
+               data-i18n-aria-label="Обновить материалы" data-i18n-title="Обновить">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 8a8 8 0 1 0 0 8M20 3v6h-6" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <form id="filters" class="filter-bar" data-expanded="false">
+            <label
+              ><span class="filter-label"><span data-i18n="Трек">Трек</span></span><select name="track" aria-label="Трек" data-i18n-aria-label="Трек">
+                <option value="" data-i18n="Все треки">Все треки</option>
+                <option value="lottery" data-i18n="Лотереи">Лотереи</option>
+                <option value="casino" data-i18n="Казино">Казино</option>
+                <option value="investment" data-i18n="Инвестиции">Инвестиции</option>
+              </select></label>
+            <label
+              ><span class="filter-label"><span data-i18n="Уровень">Уровень</span></span><select name="level" aria-label="Уровень" data-i18n-aria-label="Уровень">
+                <option value="" data-i18n="Все уровни">Все уровни</option>
+                <option value="high" data-i18n="Высокий">Высокий</option>
+                <option value="medium" data-i18n="Средний">Средний</option>
+                <option value="low" data-i18n="Низкий">Низкий</option>
+              </select></label>
+            <label id="filter-language" class="language-filter"
+              ><span class="filter-label"><span data-i18n="Язык">Язык</span></span><select name="language" aria-label="Язык" data-i18n-aria-label="Язык">
+                <option value="" data-i18n="Все языки">Все языки</option>
+                <option value="ru" data-i18n="Русский">Русский</option>
+                <option value="kk" data-i18n="Казахский">Казахский</option>
+                <option value="mixed" data-i18n="Смешанный">Смешанный</option>
+                <option value="unknown" data-i18n="Не определён">Не определён</option>
+              </select></label>
+            <button
+              class="secondary"
+              type="button"
+              id="toggle-filters"
+              aria-expanded="false"
+              aria-controls="filter-language extra-filters"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 7h16M7 12h10m-7 5h4" /></svg><span data-i18n="Ещё фильтры">Ещё фильтры</span><span id="filter-count" class="filter-count" aria-hidden="true" hidden></span></button><button
+              class="text-button"
+              type="button"
+              id="reset-filters"
+              hidden
+            ><span data-i18n="Сбросить">
+              Сбросить
+            </span></button>
+            <div id="extra-filters" class="extra-filters" hidden>
+              <label
+                ><span data-i18n="Статус">Статус</span><select name="status">
+                  <option value="" data-i18n="Все статусы">Все статусы</option>
+                  <option value="completed" data-i18n="Обработан">Обработан</option>
+                  <option value="queued" data-i18n="В очереди">В очереди</option>
+                  <option value="processing" data-i18n="Обрабатывается">Обрабатывается</option>
+                  <option value="failed" data-i18n="Ошибка">Ошибка</option>
+                  <option value="incomplete" data-i18n="Не завершён">Не завершён</option>
+                </select></label><label
+                ><span data-i18n="Решение">Решение</span><select name="action">
+                  <option value="" data-i18n="Все решения">Все решения</option>
+                  <option value="confirm_signs" data-i18n="Признаки подтверждены">Признаки подтверждены</option>
+                  <option value="false_positive" data-i18n="Ложное срабатывание">Ложное срабатывание</option>
+                  <option value="request_review" data-i18n="Дополнительная проверка">
+                    Дополнительная проверка
+                  </option>
+                </select></label><label><span data-i18n="С даты">С даты</span><input type="date" name="since" /></label><label><span data-i18n="По дату">По дату</span><input type="date" name="until" /></label>
+            </div>
+          </form>
+          <div class="workspace" id="workspace">
+            <section class="case-list" aria-label="Очередь материалов" data-i18n-aria-label="Очередь материалов">
+              <div class="list-caption">
+                <span id="list-count"><span data-i18n="Загрузка материалов…">Загрузка материалов…</span></span><span><span data-i18n="По убыванию риска">По убыванию риска</span></span>
+              </div>
+              <p id="queue-feedback" role="status" class="queue-feedback" hidden></p>
+              <table class="queue-table">
+                <thead>
+                  <tr>
+                    <th scope="col"><span data-i18n="Материал">Материал</span></th>
+                    <th scope="col" class="number"><span data-i18n="Оценка">Оценка</span></th>
+                    <th scope="col" class="language-cell"><span data-i18n="Язык">Язык</span></th>
+                    <th scope="col"><span data-i18n="Статус">Статус</span></th>
+                    <th scope="col" class="date-cell"><span data-i18n="Получен">Получен</span></th>
+                  </tr>
+                </thead>
+                <tbody id="cases"></tbody>
+              </table>
+              <div id="queue-empty" class="empty-state" hidden>
+                <h2><span data-i18n="Пока нет материалов">Пока нет материалов</span></h2>
+                <p><span data-i18n="Добавьте текст, транскрипт или скриншот для анализа.">Добавьте текст, транскрипт или скриншот для анализа.</span></p>
+                <button id="empty-action" class="secondary"><span data-i18n="Добавить материал">
+                  Добавить материал
+                </span></button>
+              </div>
+              <div class="list-footer">
+                <span id="loaded-count" class="muted"></span><button id="more" class="secondary" hidden><span data-i18n="Показать ещё">
+                  Показать ещё
+                </span></button>
+              </div>
+            </section>
+            <aside id="detail-shell" class="detail-shell" hidden>
+              <div class="detail-top">
+                <span><span data-i18n="Карточка материала">Карточка материала</span></span><button
+                  id="close-detail"
+                  class="icon-button"
+                  aria-label="Закрыть карточку"
+                 data-i18n-aria-label="Закрыть карточку">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m6 6 12 12M6 18 18 6" />
+                  </svg>
+                </button>
+              </div>
+              <article id="detail" tabindex="-1"></article>
+            </aside>
+          </div>
+        </section>
+        <section
+          id="graph-view"
+          class="view"
+          aria-labelledby="graph-title"
+          hidden
+        >
+          <div class="page-heading">
+            <div>
+              <h1 id="graph-title" tabindex="-1"><span data-i18n="Граф связей">Граф связей</span></h1>
+              <p class="muted"><span data-i18n="Общие домены, аккаунты, промокоды и шаблоны публикаций">
+                Общие домены, аккаунты, промокоды и шаблоны публикаций
+              </span></p>
+            </div>
+            <button id="graph-refresh" class="secondary"><span data-i18n="Обновить">Обновить</span></button>
+          </div>
+          <div class="graph-filter">
+            <label for="graph-case"><span data-i18n="Материал">Материал</span></label><select id="graph-case">
+              <option value="" data-i18n="Выберите материал">Выберите материал</option></select><button id="graph-more" class="text-button" hidden><span data-i18n="Загрузить ещё">
+              Загрузить ещё</span></button><span id="graph-context" class="muted"></span>
+          </div>
+          <div class="graph-workspace">
+            <div class="graph-stage">
+              <div class="graph-legend">
+                <span><i class="legend-case"></i><span data-i18n="Материал">Материал</span></span><span><i class="legend-entity"></i><span data-i18n="Общая сущность">Общая сущность</span></span>
+              </div>
+              <div id="graph" class="graph-canvas">
+                <div class="empty-state">
+                  <h2><span data-i18n="Выберите материал">Выберите материал</span></h2>
+                  <p><span data-i18n="Покажем его связи на момент анализа.">Покажем его связи на момент анализа.</span></p>
+                </div>
+              </div>
+              <div class="graph-controls">
+                <button
+                  id="zoom-out"
+                  class="icon-button"
+                  aria-label="Уменьшить граф"
+                 data-i18n-aria-label="Уменьшить граф">
+                  −</button><button id="zoom-fit" class="text-button"><span data-i18n="Вписать">Вписать</span></button><button
+                  id="zoom-in"
+                  class="icon-button"
+                  aria-label="Увеличить граф"
+                 data-i18n-aria-label="Увеличить граф">
+                  +
+                </button>
+              </div>
+            </div>
+            <aside id="graph-inspector" class="graph-inspector">
+              <h2><span data-i18n="Связи материала">Связи материала</span></h2>
+              <p class="muted"><span data-i18n="Нажмите на узел, чтобы увидеть его свойства и связанные материалы.">
+                Нажмите на узел, чтобы увидеть его свойства и связанные
+                материалы.
+              </span></p>
+            </aside>
+          </div>
+          <p id="graph-bounds" class="graph-note muted"><span data-i18n="Отображение графа ограничено; связи не означают правовой вывод.">
+            Отображение графа ограничено; связи не означают правовой вывод.
+          </span></p>
+        </section>
+        <section
+          id="overview-view"
+          class="view"
+          aria-labelledby="overview-title"
+          hidden
+        >
+          <div class="page-heading">
+            <div>
+              <h1 id="overview-title" tabindex="-1"><span data-i18n="Сводка">Сводка</span></h1>
+              <p class="muted"><span data-i18n="Материалы, результаты проверки и связанные группы">
+                Материалы, результаты проверки и связанные группы
+              </span></p>
+            </div>
+            <button id="overview-refresh" class="secondary"><span data-i18n="Обновить">Обновить</span></button>
+          </div>
+          <p id="overview-feedback" class="view-feedback" role="status" hidden></p>
+          <dl class="summary-strip">
+            <div>
+              <dt><span data-i18n="Всего материалов">Всего материалов</span></dt>
+              <dd id="total">—</dd>
+            </div>
+            <div>
+              <dt><span data-i18n="Обработано">Обработано</span></dt>
+              <dd id="completed">—</dd>
+            </div>
+            <div>
+              <dt><span data-i18n="В обработке">В обработке</span></dt>
+              <dd id="pending">—</dd>
+            </div>
+            <div>
+              <dt><span data-i18n="Групп связей">Групп связей</span></dt>
+              <dd id="components">—</dd>
+            </div>
+          </dl>
+          <div class="summary-grid">
+            <section>
+              <h2><span data-i18n="Уровни риска по трекам">Уровни риска по трекам</span></h2>
+              <p class="muted"><span data-i18n="По последнему сохранённому анализу">По последнему сохранённому анализу</span></p>
+              <div id="track-summary"></div>
+            </section>
+            <section>
+              <h2><span data-i18n="Решения аналитика">Решения аналитика</span></h2>
+              <div id="decision-summary"></div>
+              <h2 class="spaced"><span data-i18n="Крупнейшие группы">Крупнейшие группы</span></h2>
+              <div id="cluster-summary"></div>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+    <dialog id="upload" aria-labelledby="upload-title">
+      <form id="upload-form">
+        <div class="section-head">
+          <div>
+            <h2 id="upload-title"><span data-i18n="Новый материал">Новый материал</span></h2>
+            <p class="muted"><span data-i18n="Текст, изображение или готовый транскрипт">Текст, изображение или готовый транскрипт</span></p>
+          </div>
+          <button
+            type="button"
+            id="close-upload"
+            class="icon-button"
+            aria-label="Закрыть загрузку"
+           data-i18n-aria-label="Закрыть загрузку">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m6 6 12 12M6 18 18 6" />
+            </svg>
+          </button>
+        </div>
+        <div class="upload-fields"><label
+          ><span data-i18n="Происхождение">Происхождение</span><select name="provenance">
+            <option value="synthetic" data-i18n="Синтетический пример">Синтетический пример</option>
+            <option value="deidentified" data-i18n="Уже обезличенный материал">Уже обезличенный материал</option>
+          </select></label><label
+          ><span data-i18n="Вид ввода">Вид ввода</span><select name="kind">
+            <option value="text" data-i18n="Текст">Текст</option>
+            <option value="transcript" data-i18n="Готовый транскрипт">Готовый транскрипт</option>
+            <option value="screenshot" data-i18n="Скриншот">Скриншот</option>
+            <option value="jsonl" data-i18n="Файл JSONL">Файл JSONL</option>
+            <option value="csv" data-i18n="Файл CSV">Файл CSV</option>
+          </select></label></div><label id="text-label"
+          ><span data-i18n="Содержимое">Содержимое</span><textarea
+            name="text"
+            rows="7"
+            maxlength="100000"
+            placeholder="Вставьте текст публикации или сообщения"
+           aria-describedby="upload-hint upload-note" data-i18n-placeholder="Вставьте текст публикации или сообщения"></textarea></label><label id="file-label" hidden
+          ><span data-i18n="Выберите файл">Выберите файл</span><input type="file" name="file" aria-describedby="upload-hint upload-note"
+        /></label>
+        <p id="upload-hint" class="muted"></p>
+        <p class="upload-note muted"><span id="upload-note" data-i18n="Используйте синтетические или обезличенные данные.">
+          Используйте синтетические или обезличенные данные.
+        </span></p>
+        <p id="upload-error" class="form-error" role="alert" hidden></p>
+        <button id="submit-upload" class="primary" data-i18n="Отправить на анализ">Отправить на анализ</button>
+      </form>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,641 @@
+{
+  "counts": {
+    "tn": 576,
+    "fn": 35,
+    "tp": 109
+  },
+  "errors": [
+    {
+      "case_id": "fb421851-1f57-5758-a19c-fc389a2118e0",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "translit",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSlottaghy 6000 tengge dzhekpot sureti. Tabysty topqa qosyl: zharna 3000 tengge, erteng bekitilgen tolem zhane shaqyru bonusy. SYN-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+      "variants": [
+        "synthetic test data slottaghy 6000 tengge dzhekpot sureti. tabysty topqa qosyl: zharna 3000 tengge, erteng bekitilgen tolem zhane shaqyru bonusy. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+        "сйнтхетиc тест дата слоттағй 6000 теңге джекпот сурети. табйстй топқа қосйл: жарна 3000 теңге, ертең бекитилген толем жане шақйру бонусй. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+        "сйнтхетіc тест дата слөттағй 6000 теңге джекпөт сұреті. табйстй төпқа қөсйл: жарна 3000 теңге, ертең бекітілген төлем жане шақйрұ бөнұсй. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*"
+      ]
+    },
+    {
+      "case_id": "363d2b27-c175-5f09-b616-89dd068726d8",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "slang",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 2000 тг в слотах. Табысты топқа қосыл: жарна 1000 тг, ертең бекітілген төлем және шақыру бонусы. SYN-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* Ребят, детали выше.",
+      "variants": [
+        "synthetic test data скрин джекпота 2000 тг в слотах. табысты топқа қосыл: жарна 1000 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* ребят, детали выше.",
+        "сйнтхетиc тест дата скрин джекпота 2000 тг в слотах. табысты топқа қосыл: жарна 1000 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* ребят, детали выше.",
+        "сйнтхетіc тест дата скрин джекпота 2000 тг в слотах. табысты топқа қосыл: жарна 1000 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "b38e318c-7809-50fd-a246-f11911781e14",
+      "scenario": "casino_promotion",
+      "language": "ru",
+      "style": "translit",
+      "kind": "text",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nKanal-perekhodnik vedyot k igre na dengi. Skrin vyplaty 9000 tg prilagaetsya. Zhmi korotkuyu ssylku i aktiviruy SYN-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kanal-perekhodnik vedyot k igre na dengi. skrin vyplaty 9000 tg prilagaetsya. zhmi korotkuyu ssylku i aktiviruy syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деңи. скрин вйплатй 9000 тг прилагаеця. жми короткую ссйлку и активируй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетіc тест дата канал-перехөднік ведёт к ігре на деңі. скрін вйплатй 9000 тг прілагаеця. жмі көрөткұю ссйлкұ і актівірұй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "65d39d1b-f93e-5021-8aa1-694890704fe1",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "obfuscated",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 9000 тг в слотах. Табысты топка қосыл: жарна 4500 теңге, ертең бекітілген телем және шақыру б\nонусы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data скрин джекпота 9000 тг в слотах. табысты топка қосыл: жарна 4500 теңге, ертең бекітілген телем және шақыру б онусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 9000 тг в слотах. табысты топка қосыл: жарна 4500 теңге, ертең бекітілген телем және шақыру б онусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрин джекпота 9000 тг в слотах. табысты топка қосыл: жарна 4500 теңге, ертең бекітілген телем және шақыру б онусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "6c4a021a-31db-54f1-a462-e35a3ea10345",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "slang",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 8000 тг в слотах. Вступай в доходную команду: взнос 4000 тг, фиксированная выплата завтра и бонус за приглашения. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** Ребят, детали выше.",
+      "variants": [
+        "synthetic test data скрин джекпота 8000 тг в слотах. вступай в доходную команду: взнос 4000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетиc тест дата скрин джекпота 8000 тг в слотах. вступай в доходную команду: взнос 4000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетіc тест дата скрин джекпота 8000 тг в слотах. вступай в доходную команду: взнос 4000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "40b81978-bb8d-5e28-863b-69b303090dee",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "obfuscated",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 3000 тг в слотах. Вступай в доходную команду: взнос 1500 тг, фиксированная выплата завтра и б\nонус за приглашения. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data скрин джекпота 3000 тг в слотах. вступай в доходную команду: взнос 1500 тг, фиксированная выплата завтра и б онус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 3000 тг в слотах. вступай в доходную команду: взнос 1500 тг, фиксированная выплата завтра и б онус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрин джекпота 3000 тг в слотах. вступай в доходную команду: взнос 1500 тг, фиксированная выплата завтра и б онус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "cfd9bedb-5b91-598f-9c34-aeccbc06d67a",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "plain",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 2000 тг в слотах. Вступай в доходную команду: взнос 1000 тг, фиксированная выплата завтра и\nбонус за приглашения. SYN-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+      "variants": [
+        "synthetic test data скрин джекпота 2000 тг в слотах. вступай в доходную команду: взнос 1000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+        "сйнтхетиc тест дата скрин джекпота 2000 тг в слотах. вступай в доходную команду: взнос 1000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+        "сйнтхетіc тест дата скрин джекпота 2000 тг в слотах. вступай в доходную команду: взнос 1000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*"
+      ]
+    },
+    {
+      "case_id": "97f249ce-4d26-55d6-a280-be9fc78b25d1",
+      "scenario": "casino_promotion",
+      "language": "mixed",
+      "style": "slang",
+      "kind": "transcript",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nКанал-переходник ведёт к игре на деньжата. 2000 тг төлемінің суреті бар. Қысқа сілтемені басып, SYN-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* Ребят, детали выше.",
+      "variants": [
+        "synthetic test data канал-переходник ведёт к игре на деньжата. 2000 тг төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* ребят, детали выше.",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деньжата. 2000 тг төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* ребят, детали выше.",
+        "сйнтхетіc тест дата канал-переходник ведёт к игре на деньжата. 2000 тг төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "dbb55d49-9c69-5e70-be5c-910af60dd094",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "plain",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 6000 тг в слотах. Вступай в доходную команду: взнос 3000 тг, фиксированная выплата завтра и бонус за приглашения. SYN-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+      "variants": [
+        "synthetic test data скрин джекпота 6000 тг в слотах. вступай в доходную команду: взнос 3000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+        "сйнтхетиc тест дата скрин джекпота 6000 тг в слотах. вступай в доходную команду: взнос 3000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*",
+        "сйнтхетіc тест дата скрин джекпота 6000 тг в слотах. вступай в доходную команду: взнос 3000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/*"
+      ]
+    },
+    {
+      "case_id": "2fe74095-bb74-52b9-8a24-3d645992c2d6",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "slang",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 4000 тг в слотах. Вступай в доходную команду: взнос 2000 тг, фиксированная выплата завтра и\nбонус за приглашения. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** Ребят,\nдетали выше.",
+      "variants": [
+        "synthetic test data скрин джекпота 4000 тг в слотах. вступай в доходную команду: взнос 2000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетиc тест дата скрин джекпота 4000 тг в слотах. вступай в доходную команду: взнос 2000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетіc тест дата скрин джекпота 4000 тг в слотах. вступай в доходную команду: взнос 2000 тг, фиксированная выплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "befb3eb7-efa1-56bd-b785-a0212c734041",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "plain",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 8000 тг в слотах. Табысты топка қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру\nбонусы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data скрин джекпота 8000 тг в слотах. табысты топка қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 8000 тг в слотах. табысты топка қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрин джекпота 8000 тг в слотах. табысты топка қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "ffca7e7f-cdf7-51fc-8ce1-92607f0fbbc2",
+      "scenario": "casino_promotion",
+      "language": "kk",
+      "style": "obfuscated",
+      "kind": "text",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nАр@лық арна а қ ш аға ойнауға апарады. 8000 теңге төлемінің суреті бар. Қысқа сілтемені басып, SYN-ecf45601 к0дын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data аралық арна а қ ш аға ойнауға апарады. 8000 теңге төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата аралық арна а қ ш аға ойнауға апарады. 8000 теңге төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата аралық арна а қ ш аға ойнауға апарады. 8000 теңге төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "005414b6-cf75-59d4-a735-4927d6c11d30",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "plain",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСлоттағы 3000 теңге джекпот суреті. Табысты топқа қосыл: жарна 1500 теңге, ертең бекітілген төлем және шақыру бонусы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data слоттағы 3000 теңге джекпот суреті. табысты топқа қосыл: жарна 1500 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата слоттағы 3000 теңге джекпот суреті. табысты топқа қосыл: жарна 1500 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата слоттағы 3000 теңге джекпот суреті. табысты топқа қосыл: жарна 1500 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "883c5b88-1b6c-5369-9802-95643766a152",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "translit",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSkrin dzhekpota 7000 tg v slotakh. Tabysty topqa qosyl: zharna 3500 tengge, erteng bekitilgen tolem zhane shaqyru\nbonusy. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data skrin dzhekpota 7000 tg v slotakh. tabysty topqa qosyl: zharna 3500 tengge, erteng bekitilgen tolem zhane shaqyru bonusy. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 7000 тг в слотах. табйстй топқа қосйл: жарна 3500 теңге, ертең бекитилген толем жане шақйру бонусй. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрін джекпөта 7000 тг в слөтах. табйстй төпқа қөсйл: жарна 3500 теңге, ертең бекітілген төлем жане шақйрұ бөнұсй. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "1713eb16-b82e-5f07-8720-717ebece0e6f",
+      "scenario": "casino_promotion",
+      "language": "mixed",
+      "style": "translit",
+      "kind": "transcript",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nKanal-perekhodnik vedyot k igre na dengi. 3000 tengge tolemining sureti bar. Qysqa siltemeni basyp, SYN-ecf45601 kodyn iske qos. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kanal-perekhodnik vedyot k igre na dengi. 3000 tengge tolemining sureti bar. qysqa siltemeni basyp, syn-ecf45601 kodyn iske qos. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деңи. 3000 теңге толеминиң сурети бар. қйсқа силтемени басйп, syn-ecf45601 кодйн иске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетіc тест дата канал-перехөднік ведёт к ігре на деңі. 3000 теңге төлемінің сұреті бар. қйсқа сілтемені басйп, syn-ecf45601 көдйн іске қөс. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "a9e0b062-7832-5a97-ab0f-5dc63eb610fe",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "translit",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSkrin dzhekpota 3000 tg v slotakh. Tabysty topqa qosyl: zharna 1500 tengge, erteng bekitilgen tolem zhane shaqyru bonusy. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data skrin dzhekpota 3000 tg v slotakh. tabysty topqa qosyl: zharna 1500 tengge, erteng bekitilgen tolem zhane shaqyru bonusy. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 3000 тг в слотах. табйстй топқа қосйл: жарна 1500 теңге, ертең бекитилген толем жане шақйру бонусй. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрін джекпөта 3000 тг в слөтах. табйстй төпқа қөсйл: жарна 1500 теңге, ертең бекітілген төлем жане шақйрұ бөнұсй. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "4b6798cd-002c-5cd0-81d3-7fe1c1004fd6",
+      "scenario": "casino_promotion",
+      "language": "mixed",
+      "style": "translit",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nKanal-perekhodnik vedyot k igre na dengi. 7000 tengge tolemining sureti bar. Qysqa siltemeni basyp, SYN-ecf45601\nkodyn iske qos. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kanal-perekhodnik vedyot k igre na dengi. 7000 tengge tolemining sureti bar. qysqa siltemeni basyp, syn-ecf45601 kodyn iske qos. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деңи. 7000 теңге толеминиң сурети бар. қйсқа силтемени басйп, syn-ecf45601 кодйн иске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетіc тест дата канал-перехөднік ведёт к ігре на деңі. 7000 теңге төлемінің сұреті бар. қйсқа сілтемені басйп, syn-ecf45601 көдйн іске қөс. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "21810120-ee4d-5fe9-9350-f4006303fe53",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "plain",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСлоттағы 7000 теңге джекпот суреті. Табысты топқа қосыл: жарна 3500 теңге, ертең бекітілген төлем және шақыру бонусы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data слоттағы 7000 теңге джекпот суреті. табысты топқа қосыл: жарна 3500 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата слоттағы 7000 теңге джекпот суреті. табысты топқа қосыл: жарна 3500 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата слоттағы 7000 теңге джекпот суреті. табысты топқа қосыл: жарна 3500 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "3a526e4e-b134-5ced-a11e-2ba757b581d4",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "slang",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 6000 тг в слотах. Табысты топқа қосыл: жарна 3000 тг, ертең бекітілген төлем және шақыру бонусы. SYN-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* Ребят, детали выше.",
+      "variants": [
+        "synthetic test data скрин джекпота 6000 тг в слотах. табысты топқа қосыл: жарна 3000 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* ребят, детали выше.",
+        "сйнтхетиc тест дата скрин джекпота 6000 тг в слотах. табысты топқа қосыл: жарна 3000 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* ребят, детали выше.",
+        "сйнтхетіc тест дата скрин джекпота 6000 тг в слотах. табысты топқа қосыл: жарна 3000 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://go-f52e5a7060a0577e88f1c9770230ab5b.test/* ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "1f8ef97d-4841-58ab-9c43-f9d2f60899e3",
+      "scenario": "casino_promotion",
+      "language": "ru",
+      "style": "slang",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nКанал-переходник ведёт к игре Ha деньжата. Скрин выплаты 4000 тг прилагается. Жми короткую ссылку и\nактивируй SYN-ecf45601. https://d-ecf4560 1fe565520ab0a6475c6dddddc.test/offer?ref=ecf45601 Ребят, детали\nвыше.",
+      "variants": [
+        "synthetic test data канал-переходник ведёт к игре ha деньжата. скрин выплаты 4000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://d-ecf4560 1fe565520ab0a6475c6dddddc.test/offer?ref=ecf45601 ребят, детали выше.",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре ха деньжата. скрин выплаты 4000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://d-ecf4560 1фе565520аб0а6475c6дддддc.тест/оффер?реф=еcф45601 ребят, детали выше.",
+        "сйнтхетіc тест дата канал-переходник ведёт к игре ха деньжата. скрин выплаты 4000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://d-ecf4560 1фе565520аб0а6475c6дддддc.тест/өффер?реф=еcф45601 ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "d0e9c8e9-313a-5d8a-b747-1531dd6bfed2",
+      "scenario": "casino_promotion",
+      "language": "kk",
+      "style": "obfuscated",
+      "kind": "transcript",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nАр@лық арна а қ ш аға ойнауға апарады. 4000 теңге төлемінің суреті бар. Қысқа сілтемені басып, SYN-ecf45601 к0дын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data аралық арна а қ ш аға ойнауға апарады. 4000 теңге төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата аралық арна а қ ш аға ойнауға апарады. 4000 теңге төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата аралық арна а қ ш аға ойнауға апарады. 4000 теңге төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "f1f3a861-86d4-5f2d-966f-c0b90db72a2a",
+      "scenario": "casino_promotion",
+      "language": "ru",
+      "style": "plain",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nКанал-переходник ведёт к игре Ha деньги. Скрин выплаты 2000 тг прилагается. Жми короткую ссылку и активируй\nSYN-ecf45601. https://go-ecf45601fe565520ab0a6475c6dddddc.test/*",
+      "variants": [
+        "synthetic test data канал-переходник ведёт к игре ha деньги. скрин выплаты 2000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://go-ecf45601fe565520ab0a6475c6dddddc.test/*",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре ха деньги. скрин выплаты 2000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://go-ecf45601fe565520ab0a6475c6dddddc.test/*",
+        "сйнтхетіc тест дата канал-переходник ведёт к игре ха деньги. скрин выплаты 2000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://go-ecf45601fe565520ab0a6475c6dddddc.test/*"
+      ]
+    },
+    {
+      "case_id": "2589b6d9-f691-5ef9-8933-feece91e9fb7",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "slang",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСлоттагы 9000 тг джекпот суреті. Табысты топка қосыл: жарна 4500 тг, ертең бекітілген төлем және шақыру\nбонусы. SYN-f52e5a70 https://d-f52e5a7060a057 7e88f1c9770230ab5b.test/offer?ref=f52e5a70 Ағайын, толығырақ\nжоғарыда.",
+      "variants": [
+        "synthetic test data слоттагы 9000 тг джекпот суреті. табысты топка қосыл: жарна 4500 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a057 7e88f1c9770230ab5b.test/offer?ref=f52e5a70 ағайын, толығырақ жоғарыда.",
+        "сйнтхетиc тест дата слоттагы 9000 тг джекпот суреті. табысты топка қосыл: жарна 4500 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a057 7е88ф1c9770230аб5б.тест/оффер?реф=ф52е5а70 ағайын, толығырақ жоғарыда.",
+        "сйнтхетіc тест дата слоттагы 9000 тг джекпот суреті. табысты топка қосыл: жарна 4500 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a057 7е88ф1c9770230аб5б.тест/өффер?реф=ф52е5а70 ағайын, толығырақ жоғарыда."
+      ]
+    },
+    {
+      "case_id": "cf766a0d-e81f-5613-8b5d-88f2322d99e8",
+      "scenario": "casino_promotion",
+      "language": "ru",
+      "style": "translit",
+      "kind": "transcript",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nKanal-perekhodnik vedyot k igre na dengi. Skrin vyplaty 5000 tg prilagaetsya. Zhmi korotkuyu ssylku i aktiviruy SYN-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+      "variants": [
+        "synthetic test data kanal-perekhodnik vedyot k igre na dengi. skrin vyplaty 5000 tg prilagaetsya. zhmi korotkuyu ssylku i aktiviruy syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деңи. скрин вйплатй 5000 тг прилагаеця. жми короткую ссйлку и активируй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********",
+        "сйнтхетіc тест дата канал-перехөднік ведёт к ігре на деңі. скрін вйплатй 5000 тг прілагаеця. жмі көрөткұю ссйлкұ і актівірұй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "a12cf107-731c-5b8d-b1d3-9f6c794dbf2c",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "obfuscated",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСл0ттағы 8000 теңге джекпот суреті. Табысты топқа қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру б о н у сы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data слоттағы 8000 теңге джекпот суреті. табысты топқа қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата слоттағы 8000 теңге джекпот суреті. табысты топқа қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата слоттағы 8000 теңге джекпот суреті. табысты топқа қосыл: жарна 4000 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "5154ac04-eb87-55b4-ab27-96f23fdcf71a",
+      "scenario": "casino_promotion",
+      "language": "mixed",
+      "style": "slang",
+      "kind": "text",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nКанал-переходник ведёт к игре на деньжата. 6000 тг төлемінің суреті бар. Қысқа сілтемені басып, SYN-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* Ребят, детали выше.",
+      "variants": [
+        "synthetic test data канал-переходник ведёт к игре на деньжата. 6000 тг төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* ребят, детали выше.",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деньжата. 6000 тг төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* ребят, детали выше.",
+        "сйнтхетіc тест дата канал-переходник ведёт к игре на деньжата. 6000 тг төлемінің суреті бар. қысқа сілтемені басып, syn-ecf45601 кодын іске қос. https://go-ecf45601fe565520ab0a6475c6dddddc.test/* ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "223d6a5e-8ee0-505f-ab8d-5497b7996de0",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "obfuscated",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСл0ттағы 4000 теңге джекпот суреті. Табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру б о н у сы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data слоттағы 4000 теңге джекпот суреті. табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата слоттағы 4000 теңге джекпот суреті. табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата слоттағы 4000 теңге джекпот суреті. табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "593fc53a-4190-5c83-a2c9-806696cf10d4",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "obfuscated",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джeкпота 5000 тг в слотах. Табысты топқа қосыл: жарна 2500 теңге, ертең бекітілген төлем және шақыру б о н у сы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data скрин джекпота 5000 тг в слотах. табысты топқа қосыл: жарна 2500 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата скрин джекпота 5000 тг в слотах. табысты топқа қосыл: жарна 2500 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата скрин джекпота 5000 тг в слотах. табысты топқа қосыл: жарна 2500 теңге, ертең бекітілген төлем және шақыру бону сы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "9a55d047-fed6-5ae6-a0b1-d3f02a4e0f78",
+      "scenario": "casino_promotion",
+      "language": "ru",
+      "style": "slang",
+      "kind": "text",
+      "expected": true,
+      "score": 0.0,
+      "features": [],
+      "text": "SYNTHETIC TEST DATA\nКанал-переходник ведёт к игре на деньжата. Скрин выплаты 8000 тг прилагается. Жми короткую ссылку и активируй SYN-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** Ребят, детали выше.",
+      "variants": [
+        "synthetic test data канал-переходник ведёт к игре на деньжата. скрин выплаты 8000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетиc тест дата канал-переходник ведёт к игре на деньжата. скрин выплаты 8000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** ребят, детали выше.",
+        "сйнтхетіc тест дата канал-переходник ведёт к игре на деньжата. скрин выплаты 8000 тг прилагается. жми короткую ссылку и активируй syn-ecf45601. https://d-ecf45601fe565520ab0a6475c6dddddc.test/*****?ref=******** ребят, детали выше."
+      ]
+    },
+    {
+      "case_id": "9225ce75-096f-5c38-8a22-a46d12840af7",
+      "scenario": "overlap",
+      "language": "mixed",
+      "style": "plain",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джекпота 4000 тг в слотах. Табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бонусы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data скрин джекпота 4000 тг в слотах. табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 4000 тг в слотах. табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрин джекпота 4000 тг в слотах. табысты топқа қосыл: жарна 2000 теңге, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "8f3d805a-73cf-52ef-afee-c0c54b2a6772",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "obfuscated",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСкрин джeкпота 7000 тг в слотах. Вступай в доходную команду: взнос 3500 тг, фиксированная выплата завтра и б о н у с за приглашения. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** 🎲 ✦",
+      "variants": [
+        "synthetic test data скрин джекпота 7000 тг в слотах. вступай в доходную команду: взнос 3500 тг, фиксированная выплата завтра ибонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетиc тест дата скрин джекпота 7000 тг в слотах. вступай в доходную команду: взнос 3500 тг, фиксированная выплата завтра ибонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦",
+        "сйнтхетіc тест дата скрин джекпота 7000 тг в слотах. вступай в доходную команду: взнос 3500 тг, фиксированная выплата завтра ибонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** случайный выбор ✦"
+      ]
+    },
+    {
+      "case_id": "0c9182c4-1863-5a2c-a732-45629799a7d2",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "translit",
+      "kind": "screenshot",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSlottaghy 2000 tengge dzhekpot sureti. Tabysty орда qosyl: zharna 1000 tengge, erteng bekitilgen tolem zhane\nshaqyru bonusy. SYN-f52e5a70 https://go-f52e5a7060a057 7e88f1c9770230ab5b.test/r",
+      "variants": [
+        "synthetic test data slottaghy 2000 tengge dzhekpot sureti. tabysty орда qosyl: zharna 1000 tengge, erteng bekitilgen tolem zhane shaqyru bonusy. syn-f52e5a70 https://go-f52e5a7060a057 7e88f1c9770230ab5b.test/r",
+        "сйнтхетиc тест дата слоттағй 2000 теңге джекпот сурети. табйстй орда қосйл: жарна 1000 теңге, ертең бекитилген толем жане шақйру бонусй. syn-f52e5a70 https://go-f52e5a7060a057 7е88ф1c9770230аб5б.тест/р",
+        "сйнтхетіc тест дата слөттағй 2000 теңге джекпөт сұреті. табйстй орда қөсйл: жарна 1000 теңге, ертең бекітілген төлем жане шақйрұ бөнұсй. syn-f52e5a70 https://go-f52e5a7060a057 7е88ф1c9770230аб5б.тест/р"
+      ]
+    },
+    {
+      "case_id": "c37bda9f-528b-5d0d-bd3f-b4df17ff9c7f",
+      "scenario": "overlap",
+      "language": "kk",
+      "style": "slang",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nСлоттағы 5000 тг джекпот суреті. Табысты топқа қосыл: жарна 2500 тг, ертең бекітілген төлем және шақыру бонусы. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** Ағайын, толығырақ жоғарыда.",
+      "variants": [
+        "synthetic test data слоттағы 5000 тг джекпот суреті. табысты топқа қосыл: жарна 2500 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ағайын, толығырақ жоғарыда.",
+        "сйнтхетиc тест дата слоттағы 5000 тг джекпот суреті. табысты топқа қосыл: жарна 2500 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ағайын, толығырақ жоғарыда.",
+        "сйнтхетіc тест дата слоттағы 5000 тг джекпот суреті. табысты топқа қосыл: жарна 2500 тг, ертең бекітілген төлем және шақыру бонусы. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=******** ағайын, толығырақ жоғарыда."
+      ]
+    },
+    {
+      "case_id": "283b1bc4-6e46-5492-aa25-2a852cd14533",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "translit",
+      "kind": "text",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSkrin dzhekpota 9000 tg v slotakh. Vstupay v dokhodnuyu komandu: vznos 4500 tg, fiksirovannaya vyplata zavtra i bonus za priglasheniya. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data skrin dzhekpota 9000 tg v slotakh. vstupay v dokhodnuyu komandu: vznos 4500 tg, fiksirovannaya vyplata zavtra i bonus za priglasheniya. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 9000 тг в слотах. вступай в доходную команду: взнос 4500 тг, фиксированная вйплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрін джекпөта 9000 тг в слөтах. встұпай в дөхөднұю көмандұ: взнөс 4500 тг, фіксірөванная вйплата завтра і бөнұс за пріглашенія. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    },
+    {
+      "case_id": "58c8947c-1f8c-5473-b2fe-a3d04231312f",
+      "scenario": "overlap",
+      "language": "ru",
+      "style": "translit",
+      "kind": "transcript",
+      "expected": true,
+      "score": 45.0,
+      "features": [
+        "casino.gambling",
+        "casino.payout_claim"
+      ],
+      "text": "SYNTHETIC TEST DATA\nSkrin dzhekpota 5000 tg v slotakh. Vstupay v dokhodnuyu komandu: vznos 2500 tg, fiksirovannaya vyplata zavtra i bonus za priglasheniya. SYN-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+      "variants": [
+        "synthetic test data skrin dzhekpota 5000 tg v slotakh. vstupay v dokhodnuyu komandu: vznos 2500 tg, fiksirovannaya vyplata zavtra i bonus za priglasheniya. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетиc тест дата скрин джекпота 5000 тг в слотах. вступай в доходную команду: взнос 2500 тг, фиксированная вйплата завтра и бонус за приглашения. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********",
+        "сйнтхетіc тест дата скрін джекпөта 5000 тг в слөтах. встұпай в дөхөднұю көмандұ: взнөс 2500 тг, фіксірөванная вйплата завтра і бөнұс за пріглашенія. syn-f52e5a70 https://d-f52e5a7060a0577e88f1c9770230ab5b.test/*****?ref=********"
+      ]
+    }
+  ]
+}

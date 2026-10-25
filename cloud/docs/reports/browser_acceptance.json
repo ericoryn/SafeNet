@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-25T16:14:10.023Z",
+  "origin": "http://127.0.0.1:8511",
+  "browser": "Chrome headless",
+  "checks": [
+    "language_switch_and_original_text",
+    "three_decisions_saved",
+    "reanalysis_new_version",
+    "graph_nodes_and_timeline",
+    "upload_validation_processing_and_reload",
+    "language_persisted_on_reload",
+    "responsive_768_390_320_no_overflow"
+  ],
+  "page_errors": [],
+  "synthetic_database": true
+}

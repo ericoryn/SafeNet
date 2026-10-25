@@ -1,0 +1,54 @@
+schema_version = 1
+# Initial hand-assigned weights and thresholds, not validation-calibrated probabilities.
+features = [
+  { feature_id = "lottery.payment", track = "lottery", weight = 30.0 },
+  { feature_id = "lottery.random_selection", track = "lottery", weight = 25.0 },
+  { feature_id = "lottery.organizer_income", track = "lottery", weight = 15.0 },
+  { feature_id = "lottery.paid_random", track = "lottery", weight = 30.0 },
+  { feature_id = "lottery.free_participation", track = "lottery", weight = -40.0 },
+  { feature_id = "lottery.reporting_context", track = "lottery", weight = -30.0 },
+  { feature_id = "casino.gambling", track = "casino", weight = 30.0 },
+  { feature_id = "casino.promotion", track = "casino", weight = 25.0 },
+  { feature_id = "casino.payout_claim", track = "casino", weight = 15.0 },
+  { feature_id = "casino.referral", track = "casino", weight = 10.0 },
+  { feature_id = "casino.gambling_promotion", track = "casino", weight = 20.0 },
+  { feature_id = "casino.no_gambling_offer", track = "casino", weight = -40.0 },
+  { feature_id = "casino.reporting_context", track = "casino", weight = -40.0 },
+  { feature_id = "investment.profit_promise", track = "investment", weight = 45.0 },
+  { feature_id = "investment.recruitment", track = "investment", weight = 20.0 },
+  { feature_id = "investment.urgency", track = "investment", weight = 10.0 },
+  { feature_id = "investment.payment_evidence", track = "investment", weight = 10.0 },
+  { feature_id = "investment.promise_recruitment", track = "investment", weight = 25.0 },
+  { feature_id = "investment.risk_disclaimer", track = "investment", weight = -35.0 },
+  { feature_id = "investment.reporting_context", track = "investment", weight = -40.0 },
+]
+
+[thresholds]
+medium = 40.0
+high = 70.0
+
+[graph]
+max_adjustment = 15.0
+max_nodes = 100000
+max_edges = 200000
+display_max_nodes = 100
+display_max_edges = 200
+
+[limits]
+max_upload_bytes = 5242880
+max_records = 10000
+batch_size = 100
+max_pending_jobs = 1000
+max_image_pixels = 20000000
+max_image_dimension = 10000
+max_text_characters = 100000
+max_ocr_words = 10000
+
+[ocr]
+languages = "rus+kaz+eng"
+concurrency = 1
+timeout_seconds = 20
+
+[processing]
+max_attempts = 3
+max_pending_bytes = 33554432

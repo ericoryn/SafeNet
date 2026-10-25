@@ -1,0 +1,14 @@
+{
+  "scope": "local sequential cached preprocessing → rules and graph; not HTTP load capacity",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.15",
+  "cases": 240,
+  "scoring_ms_p50": 2.9812999982823385,
+  "scoring_ms_p95": 4.127399999561021,
+  "scoring_cases_per_second": 325.4040060210239,
+  "preparation_validation_seconds": 2.2885439000019687,
+  "preparation_test_seconds": 2.26746639999692,
+  "python_peak_scoring_bytes": 1660476,
+  "memory_scope": "tracemalloc, excludes native OCR and preloaded inputs",
+  "preparation_scope": "cache load and validation if artifacts already exist; otherwise fresh OCR preparation"
+}

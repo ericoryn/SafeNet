@@ -1,0 +1,192 @@
+{
+  "scope": "independent synthetic HTTP smoke fixtures; no quality evaluation",
+  "api_url": "http://127.0.0.1:8001",
+  "database": "data/api-demo-v1.sqlite3",
+  "jobs": [
+    {
+      "job_id": "09163cbf-fece-4f5a-b436-c54ad90858bf",
+      "request_id": "65daea2d-ae6f-530f-b86a-6a2675a0e7ac",
+      "case_id": "71f67ae8-198c-4503-ac58-b321baf3b27c",
+      "status": "completed",
+      "attempts": 1,
+      "error_code": null,
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.056394+00:00",
+      "version": 1,
+      "result_id": "8e2cb2a1-f95e-43ee-9cca-26244cea0080"
+    },
+    {
+      "job_id": "687be28e-a245-4cfa-9c97-ccb431182f94",
+      "request_id": "dfaa0aa6-c932-5fb1-aaf1-54dcff6938cf",
+      "case_id": "3846f93f-6da2-45cf-9399-9696e89711cd",
+      "status": "completed",
+      "attempts": 1,
+      "error_code": null,
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.073992+00:00",
+      "version": 1,
+      "result_id": "7c5660e6-19bf-4674-86d6-84668a74c881"
+    },
+    {
+      "job_id": "81c44fab-7437-4196-9a23-74ccba028ed9",
+      "request_id": "5674d880-48c3-5a60-a832-773b3d69ed4b",
+      "case_id": "ef138bdf-a4fd-4995-942c-de4e50a6dc59",
+      "status": "completed",
+      "attempts": 1,
+      "error_code": null,
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.093903+00:00",
+      "version": 1,
+      "result_id": "1eb9c9a6-3e96-4188-b740-8ee6d131b543"
+    },
+    {
+      "job_id": "dc0172ec-4d63-403f-ae47-9c2b5c3f0f3f",
+      "request_id": "c5ba1e5c-0fcd-5705-9056-32df47102ad4",
+      "case_id": "e834f20c-0109-4648-b9a9-fc652978561e",
+      "status": "completed",
+      "attempts": 1,
+      "error_code": null,
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.104657+00:00",
+      "version": 1,
+      "result_id": "543149c9-e6d6-474f-92f9-20d01c8a10b2"
+    },
+    {
+      "job_id": "7f0969c1-3d50-4f43-846e-495e6f5bb5ad",
+      "request_id": "87b2eb10-a1a2-5590-acf2-85326742767b",
+      "case_id": "f61a24c3-cb62-4c76-a6af-c51c34357bfa",
+      "status": "completed",
+      "attempts": 1,
+      "error_code": null,
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.128559+00:00",
+      "version": 1,
+      "result_id": "0f671a6a-0b44-4e58-9a44-5b01f59e8655"
+    },
+    {
+      "job_id": "a1034f57-a861-4cce-8aab-c2ae7d213f5d",
+      "request_id": "64a46b09-e737-5073-8680-24375930abd3",
+      "case_id": "9046f59b-2fc8-46c7-972b-46e89533c931",
+      "status": "completed",
+      "attempts": 1,
+      "error_code": null,
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.629121+00:00",
+      "version": 1,
+      "result_id": "72f3b244-5b14-48c4-a780-9bd1a6f67496"
+    },
+    {
+      "job_id": "f42e42c1-fd85-4e5d-aec5-5727b0faef25",
+      "request_id": "af138c70-1f8e-5f63-9aa3-7ecd8eed0312",
+      "case_id": "87a6d88b-b3e0-457b-86fe-3c253fbecfb9",
+      "status": "failed",
+      "attempts": 1,
+      "error_code": "invalid_input",
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:30.966358+00:00",
+      "version": 1,
+      "result_id": null
+    },
+    {
+      "job_id": "3fed40c8-994f-4894-b8d0-8d3d564e3f51",
+      "request_id": "05ef6196-7269-5424-9a84-d5f1c8d99a70",
+      "case_id": "0f7a209c-3023-4c8f-9fbe-3385dc527699",
+      "status": "incomplete",
+      "attempts": 1,
+      "error_code": "ocr_failed",
+      "created_at": "2026-10-25T12:24:30.027478+00:00",
+      "updated_at": "2026-10-25T12:24:31.368039+00:00",
+      "version": 1,
+      "result_id": null
+    }
+  ],
+  "summary": {
+    "cases": 8,
+    "statuses": {
+      "completed": 6,
+      "failed": 1,
+      "incomplete": 1
+    },
+    "levels": [
+      {
+        "track": "casino",
+        "level": "high",
+        "cases": 1
+      },
+      {
+        "track": "casino",
+        "level": "low",
+        "cases": 5
+      },
+      {
+        "track": "investment",
+        "level": "high",
+        "cases": 2
+      },
+      {
+        "track": "investment",
+        "level": "low",
+        "cases": 4
+      },
+      {
+        "track": "lottery",
+        "level": "high",
+        "cases": 1
+      },
+      {
+        "track": "lottery",
+        "level": "low",
+        "cases": 5
+      }
+    ],
+    "latest_decisions": {
+      "request_review": 1
+    },
+    "graph": {
+      "snapshot": {
+        "snapshot_id": "7f882d8643efa5109b04fca3ab9e97b46cc244a6eb9af19daed2c76faf563702",
+        "scope": "demo",
+        "sequence": 6,
+        "node_count": 9,
+        "edge_count": 4,
+        "component_count": 5,
+        "largest_component_cases": 2
+      },
+      "top_components": [
+        {
+          "component_id": "domain:344a7f1a5c2485fba2c80c59a47470bcc918dbe5c01ab3f10eaa79f32c273d9c",
+          "cases": 2
+        },
+        {
+          "component_id": "case:0d43d47e44bd90ce3f307f564ea560444f31b76ebfc89cc8a4da76cc45fd17d5",
+          "cases": 1
+        },
+        {
+          "component_id": "case:651a038924615e6c6acd58ff84d1815e0102066ff8512ecbbfd1a4c77e8cd293",
+          "cases": 1
+        },
+        {
+          "component_id": "promo_code:e6120be71fb234f452c45cbcadf43ac7f4d8c6459fb43ee7078aa759c6074a93",
+          "cases": 1
+        },
+        {
+          "component_id": "template:661c2e36502b35d4e0f50c4e90188275a5fdf618a1e308378c0e4fc6a85e0dbc",
+          "cases": 1
+        }
+      ]
+    },
+    "disclaimer": "Система выявляет признаки возможных нарушений и направляет материалы на ручную проверку. Окончательное решение принимает аналитик."
+  },
+  "decisions_saved": 3,
+  "historical_result_unchanged": true,
+  "hard_restart_verified": true,
+  "ingestion_and_decision_deduplication_verified": true,
+  "conflicting_request_rejected": true,
+  "privacy_sentinels_absent": true,
+  "export_counts": {
+    "case": 8,
+    "result": 7,
+    "decision": 3,
+    "job": 9
+  }
+}

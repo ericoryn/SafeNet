@@ -1,0 +1,38 @@
+{
+  "viewport": "390x844",
+  "browser": "Chrome headless",
+  "runs": [
+    {
+      "cpuSlowdown": 1,
+      "run": 0,
+      "maxGapMs": 90.29999999999995,
+      "over34ms": 2,
+      "frames": 23,
+      "available": true
+    },
+    {
+      "cpuSlowdown": 1,
+      "run": 1,
+      "maxGapMs": 7.2000000000000455,
+      "over34ms": 0,
+      "frames": 23,
+      "available": true
+    },
+    {
+      "cpuSlowdown": 4,
+      "run": 0,
+      "maxGapMs": 7.7999999999999545,
+      "over34ms": 0,
+      "frames": 23,
+      "available": true
+    },
+    {
+      "cpuSlowdown": 4,
+      "run": 1,
+      "maxGapMs": 7.100000000000136,
+      "over34ms": 0,
+      "frames": 23,
+      "available": true
+    }
+  ]
+}

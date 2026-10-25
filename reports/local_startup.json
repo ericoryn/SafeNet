@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-25T15:45:35.774961+00:00",
+  "command": "python tools/demo.py",
+  "port_override": 8512,
+  "checks": {
+    "/": {
+      "status": 200,
+      "bytes": 22803
+    },
+    "/app.js": {
+      "status": 200,
+      "bytes": 43179
+    },
+    "/locales/kk.json": {
+      "status": 200,
+      "bytes": 20702
+    },
+    "/backend/health": {
+      "status": 200,
+      "bytes": 438
+    },
+    "/backend/summary": {
+      "status": 200,
+      "bytes": 1335
+    }
+  },
+  "docker_available": false
+}

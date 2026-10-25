@@ -1,0 +1,24 @@
+{
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "functions": {
+    "api/gateway.mjs": {
+      "maxDuration": 300,
+      "includeFiles": "{private/backend.tgz,setup.sh}"
+    }
+  },
+  "rewrites": [
+    { "source": "/backend/:path*", "destination": "/api/gateway?path=:path*" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "same-origin" },
+        { "key": "X-Frame-Options", "value": "DENY" }
+      ]
+    }
+  ]
+}

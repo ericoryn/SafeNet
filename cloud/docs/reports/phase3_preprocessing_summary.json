@@ -1,0 +1,63 @@
+{
+  "scope": "training-only preprocessing; no detector evaluation",
+  "training_run": {
+    "prepared": 720,
+    "incomplete": 0,
+    "failed": 0,
+    "file_error": null,
+    "detection_ready": false,
+    "config_fingerprint": "53d391a51bd10303503ebf595d7c42bfb726be1025573ddc823a291cf3df3d14",
+    "languages": {
+      "unknown": 115,
+      "kk": 270,
+      "mixed": 114,
+      "ru": 221
+    },
+    "entities": {
+      "domain": 711,
+      "synthetic_card": 142,
+      "amount": 523,
+      "promo_code": 144
+    },
+    "redactions": {
+      "url_private": 1103,
+      "name": 12
+    },
+    "source_kinds": {
+      "screenshot": 240,
+      "transcript": 240,
+      "text": 240
+    }
+  },
+  "cache_reused_without_ocr": 720,
+  "sanitized_pngs_verified": 240,
+  "entity_evidence_verified": 1520,
+  "frozen_dataset_checksums_verified": true,
+  "ocr_models_sha256": {
+    "rus": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225",
+    "kaz": "fcc01eed3815a42b9c6321c4c9d3606f39b166cbf95ade98b7d8d12063eae53d",
+    "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+  },
+  "training_fixture_profile_check": {
+    "case_id": "be880548-d3d1-57fc-b044-16e7f7d35724",
+    "profiles": [
+      {
+        "profile": "rus+kaz",
+        "correct_synthetic_header": false,
+        "exact_fixture_url": false
+      },
+      {
+        "profile": "rus+kaz+eng",
+        "correct_synthetic_header": true,
+        "exact_fixture_url": true
+      }
+    ]
+  },
+  "final_tests": {
+    "tests": 150,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "normalized_variants_refreshed_without_ocr": 2
+}

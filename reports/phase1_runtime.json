@@ -1,0 +1,18 @@
+{
+  "api": {
+    "status": "ok",
+    "phase": 1,
+    "detection_ready": false,
+    "schema_version": 1,
+    "config_fingerprint": "d9507895880705253da5cdd507107d3293ce257a29e644cc60639b48c5c13218",
+    "code_version": "0.1.0",
+    "disclaimer": "Система выявляет признаки возможных нарушений и направляет материалы на ручную проверку. Окончательное решение принимает аналитик."
+  },
+  "dashboard_http_status": 200,
+  "live_dashboard_app_test": {
+    "exceptions": 0,
+    "success_messages": 1,
+    "errors": 0
+  },
+  "docker_available": false
+}

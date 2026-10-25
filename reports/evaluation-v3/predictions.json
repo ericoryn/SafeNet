@@ -1,0 +1,2642 @@
+[
+  {
+    "case_id": "b7cc8e08-8cc4-5470-978f-0ddbbc1c4fc2",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "6d8d5e27-adcf-5d27-9bef-a6255b010144",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "56e45919-daf8-54af-957a-6803442c07e5",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "1d2bfe67-1ef5-54f5-8ac0-f5034364cf87",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "a2340889-6b53-5767-acef-579ac5e46ae9",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "1b030125-d8d5-5dd1-acf8-3cc0a91f2c62",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "81952642-a034-5d26-858a-3831f0e8a955",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "ac9cf734-7559-530e-a1fe-77109c263cc0",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "4b2a3287-048f-5048-82b0-6358fb636d85",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "c61fc487-e228-5c4f-be17-a913bd265e9c",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "ed079c37-167d-5c03-a4fa-636c995d40fd",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "0e33fc78-aa85-5c1d-8505-6bb4bbe976cd",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "7cf6bc4b-4758-588e-af4c-89bfb8b19bf2",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "50b85611-1f47-55aa-8eee-357ea6f5eef4",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "8f21ef41-ce68-56a5-9bfe-fac686483830",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "c4dcad12-d5b1-516c-b9d6-2526bc948f04",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "f4be585f-6961-56d9-8bad-edf2b5546c51",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "aab6504c-2b87-5e96-addf-8ba93e042a0f",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "0f5c9f29-27e5-526b-9612-6631a0abf2b2",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "7c3ef80a-151d-5825-8f3f-9d59d98df0b9",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "3d98cf61-b9b0-52bd-afa1-6ba43e092fd8",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "df906a1b-191a-5e70-b4d5-5c290c5288fe",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "d2e2961c-6747-5ab5-8182-14dca5779236",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "d236e7cc-cf7f-5a56-a1b3-fa4f1210a37e",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "c96ad48a-3304-5492-a535-727abfc72df0",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "7151bd8a-7042-5ffb-8c3d-05e70ab5974f",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "e67b26df-39d1-5b8f-bc9e-023645e3cd90",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "191d65e8-7859-5ce8-95f3-b6db1a1a7789",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "09df1bc7-5d59-5648-bb3b-c672e1d71c5f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "7f6a513d-0c3b-53a4-a271-3da7422db92f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "e5c99924-0bbc-5662-ae86-4328d9376c6b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "93bd9f84-d963-525b-a7ac-e043533dd9f2",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "3d5c84d5-34b7-55f7-ae00-4efd8d97132f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "fffd8f1c-9ce6-536d-bbb3-aa71ab7b04ef",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "ffc4701c-1574-5e2e-b257-1c38ab9f5f29",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "04508693-3010-5474-80d3-e92c9294d106",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "b90ed3c7-aac3-5211-a2d8-98884e53556e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "35c38413-4e93-53cd-b15d-9ddf42c728f4",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "e07f5ab2-add6-5975-9ab7-44c663bc0a1f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "53e0825a-0ded-52f4-91f7-46e56cd8a36f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "8140e2fa-4858-5ec3-a2c4-6a525427fd5b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "076ca8c1-6781-5764-8860-2f285df691aa",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "a87c5421-f0cb-5d21-ad8c-a3891b48b184",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "654624a1-4cb5-57a0-a003-dda1705f5640",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "ae195e0f-9dc0-5e3e-9b3b-1978ab0bc95e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "d425b035-e36b-5581-b7af-9a53037966f7",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "ee118347-9495-5bde-91ab-66e4e863425e",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "f81d68ef-5d83-5641-a8a2-23e20fe3c267",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "b2c4dac8-8d96-57ae-8059-8f11c5edb079",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "716066ff-823b-5242-a0e6-f666eaefbab3",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "a52fd385-7e15-548b-9728-d987c3b795db",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "8531aff3-ca28-5c28-802b-eb8a06a0077c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "eba73c9f-0b51-52ac-8171-b1de76abaa5e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "7c57b879-e39f-5471-816c-bd8e3f6c5084",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "9b80edf9-3860-50bd-a91c-4abe2c7dfcef",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "1d6d5e25-21ad-5a6d-9472-302de3b0a909",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "1e8d9d31-784d-569c-8b36-1de2d297bb8b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "1375a875-a251-558b-ae3b-92c0b00a6618",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "c2089a56-4d8d-589c-b66b-644c9b6cb18b",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "65b446ab-4d34-52c6-a921-bdba4bd88ff9",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "bee2e049-d49b-5580-9851-ea90d1934c1c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "d02c6a47-66e6-560b-9041-1f0049818a90",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "9522d64d-5b16-59f6-8257-3f3afe997c70",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "74715188-3d2d-50d8-a68c-b7761e94a96a",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "444f18ca-24b8-5c36-9344-1351f6603b1c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "a8bf65d0-5936-5a54-b339-dca2f6e776a7",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "c16341b9-fe40-51e3-ad7e-009dcedd3840",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "bb94ef01-6d6d-5cea-8b22-dec550c8406b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "0eb3abf9-a976-55d5-b222-4a71e66d0a64",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "210b56b5-11f3-598c-9beb-5c266c131a3f",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "45206d7c-655b-51f7-a98a-f43e736000a5",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "ab95165a-f9a6-595d-a983-2aa15de5d467",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "60bd4af4-dab7-58a6-9a41-a163c1c7ae04",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "1b5f1f42-a2d8-50cd-997b-077229874f71",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "c26c1c0f-1e01-5862-a88c-3f6059dded96",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "beeab1c3-87a8-5002-b397-4aadcf4800b9",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "4f0bbd43-4dc0-5eef-a6fe-a0b69e988964",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "e7984b55-6cf0-5b85-888c-51399cded057",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "40993e08-f94d-552d-bcb3-be35fd0344d6",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "43a22bba-6b1d-57ef-98a6-5b4095c89ee4",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "7d4755e7-49c3-5cda-b02b-005df483c117",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "7a6fcf8c-1047-5899-b439-1a85cf5cf1a5",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "9e11a74e-4a52-51f4-9095-5c9b1176789c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "07c4df30-023f-57d4-8c3d-41bddb04bf08",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "ee4a346a-5ed1-54ac-941a-de3ad135e1a9",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "e11bea41-2c75-5859-93cc-4fdd5b9f1bcc",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "e05d4a79-221c-5697-b6e8-f46810ac8f7d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "7e0577f4-3b73-54e1-94a0-ca97fc9b4b5c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "d90c3c6f-d94b-5307-8a77-4486a937d08d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "b4fc11f2-bbc5-5697-9d0f-460ad73e023f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "acb1945b-1100-5dfb-9bc7-e144812d8747",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "d633b67c-fe3e-57c7-ad9c-96ee6e19063b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "75d11e66-25c2-54ca-8b78-ce919ad8d3ca",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "2cf67786-de68-5f0e-a255-8e595bb5f5e5",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "c0228ad2-3c55-558b-9131-5f1f15d2f369",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "b27e85b3-a116-54c4-9267-1d529ec4f4ee",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "ad6989c4-0b25-5d1c-b66f-437045a1da86",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "ca517665-ca2c-56e8-b261-30a1de985405",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "27ed03ea-d68e-5f2d-81e1-02f39d31c046",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 20.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "2b9f157c-00d0-5c40-98ba-49db03fdc759",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "6251c9cc-4b2f-56af-be5a-3129478b1ca7",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "aead4612-9246-5ada-ac45-40dddb7867d5",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "ad9f889f-a1ba-5bde-85c7-a514570db6eb",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "4dd6d541-e8ae-5391-90be-9ee39d8e354f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "ae98424e-b60e-5ed9-8741-f8a7f6b72dfa",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 20.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "c8b83af9-22d1-5c75-baf3-03a6b75afbc1",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "6bd1cd95-2540-5898-87dc-149bce6539ed",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "2c84576e-eb02-5ed6-8b0a-9ae066420a91",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 20.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "18d15fa0-9fd3-53ec-b71b-55cf82208f66",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "8196c585-4183-5ac6-a7ae-9c57879cdd71",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "8869b31d-d5c3-5fa3-92bb-2e0306b2d17c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 20.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "2e6c0945-bfac-584d-8efb-96179bc77fb9",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "2199a813-4a90-5c74-99bd-15358b4f49dd",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "3eea770e-99c6-525b-8faa-3b4d5338330e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "c8deb0cc-c3e9-5156-8944-5ceae45a320d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "d85bdc12-c53e-5898-9c67-110582fb4497",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "5fabec04-0b35-59d7-9fad-7cb2c04060f3",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 20.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "deeacd7d-ccb7-53e4-ba0f-d9a7c9a43729",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 100.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "47790efc-9acd-5201-bce0-ea625384584b",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "0ea89e78-d2df-5893-ab40-a7fec49fa289",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 20.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "a1b76303-df5e-5072-9ea1-e8ee92789ff7",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "51f98517-d595-5875-9cf8-338725a2ad1a",
+    "split": "test",
+    "scores": {
+      "lottery": 30.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "c00fffcd-4af8-5120-8f37-ad130ac163b1",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "4edba609-4286-57cf-b0cd-778cf24e737b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "ac546bae-df7c-5c75-9d56-2b54abe31557",
+    "split": "test",
+    "scores": {
+      "lottery": 30.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "1d7766a6-0c10-51f5-9f18-c43fbb12a2a6",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "a147a7d3-a40f-5c8e-9261-53b96f4ba64c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "9c8ef8e0-e5a1-514c-9db5-1cc995b1c88e",
+    "split": "test",
+    "scores": {
+      "lottery": 30.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "44a75c98-2cbb-5023-ba9a-41c9867f23a7",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "85cde674-b0e2-5d22-ab93-ded94cd0a6f4",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "71764c85-7429-5635-8972-b3cd8e65efa1",
+    "split": "test",
+    "scores": {
+      "lottery": 85.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "16742048-a778-5cb1-af12-79e50ce35252",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "cf2318b5-1a6c-5738-b21a-c0862e681fe7",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "e873d417-12a6-5d80-b68d-55b3f9a27faa",
+    "split": "test",
+    "scores": {
+      "lottery": 30.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "b24e0141-ba36-517c-a04b-af41bc5b37e4",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "58b722ff-ca1b-5ecf-9fc8-f2c0e1d62c93",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "ecacc242-34f0-52b7-a9a1-5cc57f7a01ae",
+    "split": "test",
+    "scores": {
+      "lottery": 30.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "ee6b4992-676e-581c-aad3-7a8a78e48a71",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "94babed0-e668-5cab-b128-6a76341f916c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "c75b82d4-5a52-5934-a681-ef5e469b9add",
+    "split": "test",
+    "scores": {
+      "lottery": 30.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "1c6d6ecb-c317-5edf-bb0d-73d1dc21d571",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "e56cebb9-ba44-52d3-a974-666df9c438c8",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "d57e7ce0-7507-59cd-903b-e545cbcc4719",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "f0df9f8d-a90b-532e-aa0d-f1e0d36f756c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "1d111043-9830-5a6c-afc5-6ea40584c24a",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "8a073382-f2c8-5264-9a97-e93b1d6a01cb",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "080e74f0-61a3-592c-806a-e05d17cf88b8",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "938d2b2f-018b-53e3-bda8-44b772ae6f9f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "5a222273-5723-5757-8914-caff0f9cbe16",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "33daa366-40d5-57dd-ad51-5f4bc8f81b1d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "558ffef4-9883-521c-bff7-94f5bca27adb",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "50443f0a-5126-528a-970b-29c5c195040e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "337f5afd-75f3-5963-8cc9-913ac89e55df",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "30bc02bf-a58f-50bf-8f19-9f3393bf3d28",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "e28431c6-1530-5c75-b030-201b4eb0b580",
+    "split": "test",
+    "scores": {
+      "lottery": 85.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "27c0e6c7-8c70-54b2-b881-fef5540373d8",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "d992ff63-4fca-52f4-a164-e03e3f36ff83",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "52e20e78-6c01-5c7c-b224-418568ff2b3d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "b29062b7-26a1-56eb-9e4f-ad1c90faaa5b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "7f70b439-029a-549e-95ea-557896adc481",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "883c7803-ed88-5eb3-90d5-da7623afeb94",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "9288a0e3-be12-5be4-9460-a64df13ced5c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "67680133-4d9b-576b-a0eb-a164b2ec5372",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "4edf838c-b1a1-51f5-90da-ae7aaef6ab58",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "9a3d50a3-f1b5-51fb-80dd-228d07df98a3",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "be1f8ab0-23b2-5454-8528-26e39de8bc17",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "e2c0a892-5659-5c50-b7ac-6523f89f1b88",
+    "split": "test",
+    "scores": {
+      "lottery": 100.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "7e741b86-443d-55d6-bfa3-6c2a71fa0b1b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "b77681fd-0993-51b9-8771-92849250a8a0",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 55.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "2c76c525-c61d-54da-a4f8-23ea1667c83e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "9a2ec768-9643-53ad-b4fb-e018aa8fd953",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "764fdef8-df18-51f9-b81c-b2e543391cf7",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "0652f829-275c-574d-8d60-aafdd4bef787",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "d8fb898e-3034-5c4f-b801-cf9f1506dd98",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "adb38c29-8b4f-55ac-8acc-d6050634f2dc",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 60.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "b814c98e-b2da-59af-8f73-65d59ef24832",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "f36e7669-c54b-5309-848b-27a984d1c4bf",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "937fea66-a981-5661-9ff8-052f5d2ab37d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 58.333333333333336
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "1aee945d-0563-5908-a8b6-5cebb2eb6d74",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "ee5fcb7c-3079-5370-91e9-87f9e706e6da",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "8d307b1d-fc0e-5264-8827-7550eeb0f012",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "939a35ec-6797-5c0b-ae57-bc23658dbabb",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "616dcb5b-07f6-50a6-87db-d87ce96ba57a",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "acf77fc9-2ec7-58fb-8256-93f01042326b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "e260c4e7-5921-5b4c-9eaf-9c45da9b122d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "17f2c1bc-2783-59dd-a9d6-4b160e5f86b5",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "f7416158-fe43-59a3-b02a-1b08cda70e1c",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 60.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "8d4891ac-6504-55f2-843b-be0a2903e743",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "92267510-737e-5b89-95d9-b617e52dc069",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "ae129294-c177-5d85-8277-cb32ea3ea245",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 58.57142857142857
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "2c691f60-8cf6-5b6a-b2b0-a04435682cc6",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "70c0f9c6-416e-5d22-b8cb-28faec4ad57a",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "7e4bc92d-f9a7-5ee6-a771-01e93273dfe2",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 55.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "11114bdc-a0b6-5493-8413-95420fd9678a",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 75.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "43942c6a-f0a9-5fe5-af35-b20bcdce0cfb",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 82.5,
+      "investment": 70.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "18e5b4b3-1dc5-5498-b99f-d3a88b8e7373",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "af266e3c-4f76-54b3-9e85-a6280e728419",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 92.5,
+      "investment": 10.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "b3f536c2-ca14-5443-955d-aa02827f5bce",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 82.5,
+      "investment": 70.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "4bcc0bff-a1b1-5bd9-931e-3de81f9d58af",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 67.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "9ccfa0e2-59fc-51b8-bb40-7765a41e2440",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 85.0,
+      "investment": 70.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "85034b7f-96c5-580d-ab61-e93eca744202",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 92.5,
+      "investment": 67.5
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "6ed4d574-25e9-5bb6-85ca-91dc24528933",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 70.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "dacbc177-91e9-5699-9bce-3bda85c1706c",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 84.0,
+      "investment": 67.85714285714286
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "bc3a4629-92e1-59ee-9962-a788054bfd43",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 84.375,
+      "investment": 70.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "07eb6154-12ba-55f6-8539-634c06059619",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "4a7d575c-88a4-5559-92b8-420d27e16849",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 90.0,
+      "investment": 70.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "5e20690b-4150-5aa1-9691-fb6d0eac87c2",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 90.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "666bcd1d-072a-5274-91f4-9ccfa6d32fdc",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 70.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "8313b7e0-ac50-583b-92c9-718f12aa13c8",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 100.0,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "03bb59f3-1116-5baf-b210-73ba59a387da",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 90.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "3e975df5-24ff-56d2-af5a-8ff7dbef4020",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 30.0,
+      "investment": 70.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "273868af-2e0b-5dff-bc78-75dc12dc87a6",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 85.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "94839f71-68f7-58e7-97c3-cb379e051af9",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 100.0,
+      "investment": 70.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "6a389337-0e02-5673-b8a4-d7a5b1697ad7",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 30.0,
+      "investment": 70.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "c106d8c4-53ce-5674-8eb2-1fca49cc6637",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 90.0,
+      "investment": 70.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "1847b34b-9200-538a-8bcd-217056faa87b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 84.54545454545455,
+      "investment": 10.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "f3dae2ab-ded1-5e31-b760-3391c6984556",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "1274f8c5-2943-539a-b599-07a525c6f9f8",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "92881e64-491b-5eee-9e3c-50ef76e1e9b5",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "0a667179-37e2-5d3a-b422-3524776f559a",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "e3a226bc-7a4a-5845-b1ed-b137d168d97e",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "b84d890e-31cc-5e1b-b43c-2265ecec993d",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "efbdafdf-3154-5c88-852c-14ab00c2b970",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "a62547ea-f9a8-58ed-a588-9c9abd744eeb",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "18c79477-1306-51ff-95e5-f77ca535086d",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "e1ab66d5-57ea-5e99-a6b8-3164c4889df8",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "3f62ee92-1acb-5cc4-9f62-1b966510de19",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "4628f713-6593-5a50-b557-ba0a9544da6a",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "7f986ae6-1d14-5287-ad07-b00b1479012b",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "f4c8c0c7-de94-56c4-b5b7-231db54221d9",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "be80b162-bec5-5c20-8df4-588041ecc8ad",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "17eb5bc7-8325-5285-9104-cc27c222dc09",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "e69f6f74-e156-535c-929d-8156bfb4b010",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "4a06a6ec-0d67-5519-bb8e-98a34916fcf8",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "unknown"
+  },
+  {
+    "case_id": "7bc867e5-a7a1-5961-a7a0-9e6330213d6f",
+    "split": "test",
+    "scores": {
+      "lottery": 0.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "7189935e-5c24-5756-b826-9b2f3db59b00",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "9a47b88e-bd32-5b9b-b6d7-cdb564d1b7cb",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "mixed"
+  },
+  {
+    "case_id": "84bf01e2-5cee-5640-8089-021ce3bd8e58",
+    "split": "test",
+    "scores": {
+      "lottery": 25.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "transcript",
+    "detected_language": "ru"
+  },
+  {
+    "case_id": "c1326f4f-eb25-54c7-b10b-d9872f6d32f1",
+    "split": "test",
+    "scores": {
+      "lottery": 40.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "text",
+    "detected_language": "kk"
+  },
+  {
+    "case_id": "5be76e90-03c5-584b-8b0e-ffc178fcfd13",
+    "split": "test",
+    "scores": {
+      "lottery": 15.0,
+      "casino": 0.0,
+      "investment": 0.0
+    },
+    "source_kind": "screenshot",
+    "detected_language": "kk"
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "total_records": 1200,
+  "splits": {
+    "train": {
+      "records": 720,
+      "families": 30,
+      "campaigns": 30,
+      "accounts": 60,
+      "languages": {
+        "kk": 240,
+        "mixed": 240,
+        "ru": 240
+      },
+      "styles": {
+        "translit": 180,
+        "plain": 180,
+        "slang": 180,
+        "obfuscated": 180
+      },
+      "source_kinds": {
+        "screenshot": 240,
+        "transcript": 240,
+        "text": 240
+      },
+      "scenarios": {
+        "education": 72,
+        "free_contest": 72,
+        "charity": 72,
+        "ordinary_ad": 72,
+        "overlap": 72,
+        "investment_discussion": 72,
+        "news": 72,
+        "casino_promotion": 72,
+        "paid_lottery": 72,
+        "investment_recruitment": 72
+      },
+      "track_labels": {
+        "lottery": {
+          "benign": 648,
+          "suspicious": 72
+        },
+        "casino": {
+          "benign": 576,
+          "suspicious": 144
+        },
+        "investment": {
+          "benign": 576,
+          "suspicious": 144
+        }
+      },
+      "overlapping_track_records": 72
+    },
+    "validation": {
+      "records": 240,
+      "families": 10,
+      "campaigns": 10,
+      "accounts": 20,
+      "languages": {
+        "kk": 80,
+        "mixed": 80,
+        "ru": 80
+      },
+      "styles": {
+        "translit": 60,
+        "obfuscated": 60,
+        "slang": 60,
+        "plain": 60
+      },
+      "source_kinds": {
+        "screenshot": 80,
+        "text": 80,
+        "transcript": 80
+      },
+      "scenarios": {
+        "casino_promotion": 24,
+        "paid_lottery": 24,
+        "ordinary_ad": 24,
+        "education": 24,
+        "investment_discussion": 24,
+        "investment_recruitment": 24,
+        "free_contest": 24,
+        "overlap": 24,
+        "charity": 24,
+        "news": 24
+      },
+      "track_labels": {
+        "lottery": {
+          "benign": 216,
+          "suspicious": 24
+        },
+        "casino": {
+          "suspicious": 48,
+          "benign": 192
+        },
+        "investment": {
+          "benign": 192,
+          "suspicious": 48
+        }
+      },
+      "overlapping_track_records": 24
+    },
+    "test": {
+      "records": 240,
+      "families": 10,
+      "campaigns": 10,
+      "accounts": 20,
+      "languages": {
+        "kk": 80,
+        "ru": 80,
+        "mixed": 80
+      },
+      "styles": {
+        "translit": 60,
+        "plain": 60,
+        "slang": 60,
+        "obfuscated": 60
+      },
+      "source_kinds": {
+        "screenshot": 80,
+        "text": 80,
+        "transcript": 80
+      },
+      "scenarios": {
+        "paid_lottery": 24,
+        "education": 24,
+        "charity": 24,
+        "news": 24,
+        "investment_recruitment": 24,
+        "overlap": 24,
+        "free_contest": 24,
+        "investment_discussion": 24,
+        "ordinary_ad": 24,
+        "casino_promotion": 24
+      },
+      "track_labels": {
+        "lottery": {
+          "suspicious": 24,
+          "benign": 216
+        },
+        "casino": {
+          "benign": 192,
+          "suspicious": 48
+        },
+        "investment": {
+          "benign": 192,
+          "suspicious": 48
+        }
+      },
+      "overlapping_track_records": 24
+    }
+  },
+  "cross_split_overlap": {
+    "family": 0,
+    "campaign": 0,
+    "account": 0,
+    "entity": 0,
+    "content": 0,
+    "image": 0
+  },
+  "detector_evaluated": false,
+  "seed": 42,
+  "generator_sha256": "bc476e1903cc7ddd4d5f373b897f62007d1a176a515389ff84700596d76ebc85",
+  "font_sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+  "reproducibility": {
+    "byte_identical": true,
+    "files_compared": 407,
+    "manifest_sha256": "cc41228fee9631a022f72ef2557378042f4a51081035d3aed0933a927f5069fb"
+  },
+  "all_file_checksums_verified": true
+}

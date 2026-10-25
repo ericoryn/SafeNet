@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "safenet-kz"
+version = "0.1.0"
+description = "Local analyst-assistance prototype: signs requiring human review"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "fastapi==0.162.0",
+  "pydantic==2.14.1",
+  "streamlit==1.66.1",
+  "uvicorn==0.54.0",
+]
+
+[project.optional-dependencies]
+ocr = ["tesserocr==2.12.0", "pillow==13.0.0"]
+
+[dependency-groups]
+dev = ["httpx2==2.16.0", "pytest==9.1.1", "ruff==0.17.2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/safenet"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "--basetemp=.cache/pytest"
+markers = ["ocr: requires real OCR dependencies and downloaded language models"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-10-25T15:54:24.999Z",
+  "deployment": "https://safenet-g2mtovbhn-ericoryns-projects.vercel.app",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/app.js",
+      "status": 200
+    },
+    {
+      "path": "/i18n.js",
+      "status": 200
+    },
+    {
+      "path": "/locales/kk.json",
+      "status": 200
+    },
+    {
+      "path": "/backend/health",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases?limit=100",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases/7469314f-bc4d-4590-9f6b-916300e4b71a/decisions",
+      "status": 200
+    },
+    {
+      "path": "/backend/cases/eb6903f4-d9b2-44d3-849e-4a3481f2b8be/graph",
+      "status": 200
+    },
+    {
+      "path": "/docs/CHECKLIST.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/ROADMAP.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/DEMO.html",
+      "status": 200
+    },
+    {
+      "path": "/docs/metrics.json",
+      "status": 200
+    },
+    {
+      "path": "/docs/reports/evaluation/metrics.json",
+      "status": 200
+    }
+  ],
+  "anonymous_status": 302,
+  "languages": [
+    "ru",
+    "kk"
+  ],
+  "config_fingerprint": "8e71772eec737b362630046155a0cd850c4c25b7166b3cba6f27975a0ece46bf",
+  "prior_decisions_preserved": true,
+  "historical_graph_preserved": true,
+  "mutating_requests": false,
+  "primary_url": "https://safenet-kz.vercel.app",
+  "primary_status": 200,
+  "primary_language_buttons_verified": true
+}

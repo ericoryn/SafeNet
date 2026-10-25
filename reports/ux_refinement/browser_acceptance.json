@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-25T17:47:11.577Z",
+  "origin": "http://127.0.0.1:8511",
+  "browser": "Chrome headless",
+  "checks": [
+    "language_switch_and_original_text",
+    "three_decisions_saved",
+    "reanalysis_new_version",
+    "graph_nodes_and_timeline",
+    "upload_validation_processing_and_reload",
+    "language_persisted_on_reload",
+    "summary_failure_does_not_block_case_deep_link",
+    "overview_error_preserves_values_and_retry_recovers",
+    "graph_network_error_has_retry_and_recovers",
+    "empty_graph_has_no_endless_loading",
+    "pending_case_disables_decision_jump_and_actions",
+    "motion_enabled_only_without_reduced_motion",
+    "mobile_filter_disclosure_preserves_values_and_reset",
+    "invalid_hidden_date_range_reopens_filters_and_correction_recovers",
+    "decision_jump_keyboard_modal_trap_and_escape_focus_return",
+    "responsive_768_390_320_all_views_and_upload_no_overflow",
+    "upload_keyboard_trap_escape_and_focus_return"
+  ],
+  "page_errors": [],
+  "synthetic_database": true
+}

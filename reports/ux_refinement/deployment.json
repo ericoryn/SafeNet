@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-25",
+  "projectId": "prj_grdlZq4IngFqQTt9K1HHQbgtNDDx",
+  "teamId": "team_XLExCSK0nveNiFmWMvh4EaXo",
+  "deploymentId": "dpl_8tWdigCozxa8B8Aia69CAS9KcsQL",
+  "url": "https://safenet-kz.vercel.app/",
+  "deploymentUrl": "https://safenet-fddyb3qc7-ericoryns-projects.vercel.app",
+  "target": "production",
+  "status": "READY",
+  "stagedFilesMatch": ["index.html", "app.js", "app.css", "locales/kk.json"],
+  "productionJsMatches": true,
+  "health": "ok",
+  "detectionReady": true,
+  "casesBefore": 21,
+  "casesAfter": 21,
+  "latestDecisionsPreserved": true,
+  "errorLogRecords": 0,
+  "errorLogWindowUtc": ["2026-10-25T17:48:28.402Z", "2026-10-25T17:58:28.402Z"],
+  "productionWritesTested": false
+}

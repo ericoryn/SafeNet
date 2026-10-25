@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-25",
+  "environment": "Локальная изолированная база; имитация задержек и HTTP 503 через прокси",
+  "passed": [
+    "auto_filters_without_submit",
+    "empty_state",
+    "immediate_kazakh_render",
+    "no_horizontal_overflow_320_390",
+    "empty_upload_validation",
+    "upload_character_counter",
+    "upload_processing_result",
+    "return_focus_to_selected_material",
+    "dismiss_notification",
+    "material_loading_state",
+    "late_case_response_does_not_reopen_panel",
+    "api_failure_keeps_results_and_releases_busy_state",
+    "case_failure_retry_action",
+    "case_retry_recovers",
+    "graph_node_inspector",
+    "graph_reflows_on_viewport_change",
+    "escape_closes_panel_and_returns_focus",
+    "date_range_error_recovers_after_correction"
+  ]
+}

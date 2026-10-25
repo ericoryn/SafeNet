@@ -1,0 +1,414 @@
+{
+  "examples": [
+    {
+      "name": "A",
+      "sanitized_text": "Гарантированный доход. Пригласи друзей. https://a.test/",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [
+            {
+              "feature_id": "investment.profit_promise",
+              "track": "investment",
+              "contribution": 45.0,
+              "evidence": [
+                {
+                  "source_id": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+                  "quote": "Гарантированный",
+                  "span": {
+                    "start": 0,
+                    "end": 15
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+                  "quote": "доход",
+                  "span": {
+                    "start": 16,
+                    "end": 21
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки обещания дохода или быстрого возврата"
+            },
+            {
+              "feature_id": "investment.recruitment",
+              "track": "investment",
+              "contribution": 20.0,
+              "evidence": [
+                {
+                  "source_id": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+                  "quote": "Пригласи",
+                  "span": {
+                    "start": 23,
+                    "end": 31
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Призыв привлекать новых участников"
+            },
+            {
+              "feature_id": "investment.promise_recruitment",
+              "track": "investment",
+              "contribution": 25.0,
+              "evidence": [
+                {
+                  "source_id": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+                  "quote": "Гарантированный",
+                  "span": {
+                    "start": 0,
+                    "end": 15
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+                  "quote": "Пригласи",
+                  "span": {
+                    "start": 23,
+                    "end": 31
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Обещание дохода и привлечение участников рядом"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 90.0,
+          "level": "high"
+        }
+      ],
+      "analysis_snapshot": {
+        "snapshot_id": "7e81da6a3ae57595842e480dcb547414e1d193fbcee4b722babfe730f1b27394",
+        "scope": "demo",
+        "sequence": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "component_count": 0,
+        "largest_component_cases": 0
+      }
+    },
+    {
+      "name": "B",
+      "sanitized_text": "Гарантированный доход. Успей сегодня. https://a.test/ https://b.test/",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [
+            {
+              "feature_id": "investment.profit_promise",
+              "track": "investment",
+              "contribution": 45.0,
+              "evidence": [
+                {
+                  "source_id": "c1c206c5-6328-5b41-b092-1f86c3b3efde",
+                  "quote": "Гарантированный",
+                  "span": {
+                    "start": 0,
+                    "end": 15
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "c1c206c5-6328-5b41-b092-1f86c3b3efde",
+                  "quote": "доход",
+                  "span": {
+                    "start": 16,
+                    "end": 21
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки обещания дохода или быстрого возврата"
+            },
+            {
+              "feature_id": "investment.urgency",
+              "track": "investment",
+              "contribution": 10.0,
+              "evidence": [
+                {
+                  "source_id": "c1c206c5-6328-5b41-b092-1f86c3b3efde",
+                  "quote": "Успей",
+                  "span": {
+                    "start": 23,
+                    "end": 28
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Давление сроком или числом мест"
+            }
+          ],
+          "graph_adjustment": 15.0,
+          "graph_evidence": {
+            "snapshot_id": "345009780eda62a1ed2b7096e6e4f2e8690347b8a670066af93d067516a21a08",
+            "node_id": "domain:52dcf5eeb77a59de2eb7221158d2316a1fce8c55c61ee02f63f378d048feed6c",
+            "kind": "domain",
+            "value": "a.test",
+            "previous_cases": 1,
+            "high_base_cases": 1,
+            "seed_case_id": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+            "seed_base_score": 90.0,
+            "seed_threshold": 70.0,
+            "max_adjustment": 15.0,
+            "description": "Связь с ранее обработанными материалами с высокой базовой оценкой"
+          },
+          "cap_adjustment": 0.0,
+          "score": 70.0,
+          "level": "high"
+        }
+      ],
+      "analysis_snapshot": {
+        "snapshot_id": "345009780eda62a1ed2b7096e6e4f2e8690347b8a670066af93d067516a21a08",
+        "scope": "demo",
+        "sequence": 1,
+        "node_count": 2,
+        "edge_count": 1,
+        "component_count": 1,
+        "largest_component_cases": 1
+      }
+    },
+    {
+      "name": "C",
+      "sanitized_text": "Гарантированный доход. Успей сегодня. https://b.test/",
+      "tracks": [
+        {
+          "track": "lottery",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "casino",
+          "features": [],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 0.0,
+          "level": "low"
+        },
+        {
+          "track": "investment",
+          "features": [
+            {
+              "feature_id": "investment.profit_promise",
+              "track": "investment",
+              "contribution": 45.0,
+              "evidence": [
+                {
+                  "source_id": "2ba13631-1bb9-5c9a-b70f-61883a241e6e",
+                  "quote": "Гарантированный",
+                  "span": {
+                    "start": 0,
+                    "end": 15
+                  },
+                  "region": null
+                },
+                {
+                  "source_id": "2ba13631-1bb9-5c9a-b70f-61883a241e6e",
+                  "quote": "доход",
+                  "span": {
+                    "start": 16,
+                    "end": 21
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Признаки обещания дохода или быстрого возврата"
+            },
+            {
+              "feature_id": "investment.urgency",
+              "track": "investment",
+              "contribution": 10.0,
+              "evidence": [
+                {
+                  "source_id": "2ba13631-1bb9-5c9a-b70f-61883a241e6e",
+                  "quote": "Успей",
+                  "span": {
+                    "start": 23,
+                    "end": 28
+                  },
+                  "region": null
+                }
+              ],
+              "description": "Давление сроком или числом мест"
+            }
+          ],
+          "graph_adjustment": 0.0,
+          "graph_evidence": null,
+          "cap_adjustment": 0.0,
+          "score": 55.0,
+          "level": "medium"
+        }
+      ],
+      "analysis_snapshot": {
+        "snapshot_id": "44d531d50e16c3bb0ff458afad1dfc5303e40523fdf511ece9ce2c02f87c0557",
+        "scope": "demo",
+        "sequence": 2,
+        "node_count": 4,
+        "edge_count": 3,
+        "component_count": 1,
+        "largest_component_cases": 2
+      }
+    }
+  ],
+  "graph": {
+    "graph_version": "1",
+    "snapshot": {
+      "snapshot_id": "4766699d322d9f0c4180c3053e9ddcf978a86bbd184fc855e7a5c88fd4d27345",
+      "scope": "demo",
+      "sequence": 3,
+      "node_count": 5,
+      "edge_count": 4,
+      "component_count": 1,
+      "largest_component_cases": 3
+    },
+    "snapshots": [
+      {
+        "snapshot_id": "7e81da6a3ae57595842e480dcb547414e1d193fbcee4b722babfe730f1b27394",
+        "scope": "demo",
+        "sequence": 0,
+        "node_count": 0,
+        "edge_count": 0,
+        "component_count": 0,
+        "largest_component_cases": 0
+      },
+      {
+        "snapshot_id": "345009780eda62a1ed2b7096e6e4f2e8690347b8a670066af93d067516a21a08",
+        "scope": "demo",
+        "sequence": 1,
+        "node_count": 2,
+        "edge_count": 1,
+        "component_count": 1,
+        "largest_component_cases": 1
+      },
+      {
+        "snapshot_id": "44d531d50e16c3bb0ff458afad1dfc5303e40523fdf511ece9ce2c02f87c0557",
+        "scope": "demo",
+        "sequence": 2,
+        "node_count": 4,
+        "edge_count": 3,
+        "component_count": 1,
+        "largest_component_cases": 2
+      },
+      {
+        "snapshot_id": "4766699d322d9f0c4180c3053e9ddcf978a86bbd184fc855e7a5c88fd4d27345",
+        "scope": "demo",
+        "sequence": 3,
+        "node_count": 5,
+        "edge_count": 4,
+        "component_count": 1,
+        "largest_component_cases": 3
+      }
+    ],
+    "nodes": [
+      {
+        "node_id": "case:05adadeb865ce0b497de22094db850073f62c06b9528a9f77bee9e62f66c102e",
+        "kind": "case",
+        "value": "ad813519-e63e-50c3-967b-c33bb227e0ab",
+        "first_seen": 1
+      },
+      {
+        "node_id": "domain:52dcf5eeb77a59de2eb7221158d2316a1fce8c55c61ee02f63f378d048feed6c",
+        "kind": "domain",
+        "value": "a.test",
+        "first_seen": 1
+      },
+      {
+        "node_id": "case:825b2f6465496fe617c94b79800170bb812b1b3d9134ad6d18292e6ed67cb879",
+        "kind": "case",
+        "value": "c1c206c5-6328-5b41-b092-1f86c3b3efde",
+        "first_seen": 2
+      },
+      {
+        "node_id": "domain:ae869e1a1907c03de0b7c1723e45cb56922f9a955c78dad381c78dff650f2922",
+        "kind": "domain",
+        "value": "b.test",
+        "first_seen": 2
+      },
+      {
+        "node_id": "case:b6932b8c4315c4c848d22022e14e6f379fec07cdfc3f5f9c4a91aa5666cadbde",
+        "kind": "case",
+        "value": "2ba13631-1bb9-5c9a-b70f-61883a241e6e",
+        "first_seen": 3
+      }
+    ],
+    "edges": [
+      {
+        "source": "case:05adadeb865ce0b497de22094db850073f62c06b9528a9f77bee9e62f66c102e",
+        "target": "domain:52dcf5eeb77a59de2eb7221158d2316a1fce8c55c61ee02f63f378d048feed6c",
+        "origin": "text",
+        "observed_sequence": 1
+      },
+      {
+        "source": "case:825b2f6465496fe617c94b79800170bb812b1b3d9134ad6d18292e6ed67cb879",
+        "target": "domain:52dcf5eeb77a59de2eb7221158d2316a1fce8c55c61ee02f63f378d048feed6c",
+        "origin": "text",
+        "observed_sequence": 2
+      },
+      {
+        "source": "case:825b2f6465496fe617c94b79800170bb812b1b3d9134ad6d18292e6ed67cb879",
+        "target": "domain:ae869e1a1907c03de0b7c1723e45cb56922f9a955c78dad381c78dff650f2922",
+        "origin": "text",
+        "observed_sequence": 2
+      },
+      {
+        "source": "case:b6932b8c4315c4c848d22022e14e6f379fec07cdfc3f5f9c4a91aa5666cadbde",
+        "target": "domain:ae869e1a1907c03de0b7c1723e45cb56922f9a955c78dad381c78dff650f2922",
+        "origin": "text",
+        "observed_sequence": 3
+      }
+    ],
+    "top_components": [
+      {
+        "component_id": "domain:52dcf5eeb77a59de2eb7221158d2316a1fce8c55c61ee02f63f378d048feed6c",
+        "cases": 3
+      }
+    ]
+  }
+}

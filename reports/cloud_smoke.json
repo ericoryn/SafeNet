@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-10-25T13:33:33.988Z",
+  "deployment": "https://safenet-kz.vercel.app",
+  "completed": 6,
+  "ocr_verified": true,
+  "graph_adjustment_verified": true,
+  "decisions_saved": 3,
+  "stop_resume_verified": true,
+  "historical_result_unchanged": true,
+  "deduplication_verified": true,
+  "private_sentinel_absent": true,
+  "export_counts": {
+    "case": 6,
+    "result": 6,
+    "decision": 3,
+    "job": 6
+  },
+  "summary": {
+    "cases": 6,
+    "statuses": {
+      "completed": 6
+    },
+    "levels": [
+      {
+        "track": "casino",
+        "level": "high",
+        "cases": 1
+      },
+      {
+        "track": "casino",
+        "level": "low",
+        "cases": 5
+      },
+      {
+        "track": "investment",
+        "level": "high",
+        "cases": 2
+      },
+      {
+        "track": "investment",
+        "level": "low",
+        "cases": 4
+      },
+      {
+        "track": "lottery",
+        "level": "high",
+        "cases": 1
+      },
+      {
+        "track": "lottery",
+        "level": "low",
+        "cases": 5
+      }
+    ],
+    "latest_decisions": {
+      "request_review": 1
+    },
+    "graph": {
+      "snapshot": {
+        "snapshot_id": "1e0d5a86137322be5b23c89400f82d4fc35b587ccaf8997af71133c992b45f2e",
+        "scope": "demo",
+        "sequence": 6,
+        "node_count": 9,
+        "edge_count": 4,
+        "component_count": 5,
+        "largest_component_cases": 2
+      },
+      "top_components": [
+        {
+          "component_id": "domain:00f5b113304e15f409e7da021b7e251486ecd96f966d80ee2a37beb4c0c04153",
+          "cases": 2
+        },
+        {
+          "component_id": "case:a986ce63f02f4acbe5fe5a1f09f6f657f47c10e20726595f8162a4cf9039c133",
+          "cases": 1
+        },
+        {
+          "component_id": "case:c74df0e9366be57f5b3112c6497c3e82e832dbae73cc4fe85f7771ae481ab7e3",
+          "cases": 1
+        },
+        {
+          "component_id": "promo_code:e6120be71fb234f452c45cbcadf43ac7f4d8c6459fb43ee7078aa759c6074a93",
+          "cases": 1
+        },
+        {
+          "component_id": "template:661c2e36502b35d4e0f50c4e90188275a5fdf618a1e308378c0e4fc6a85e0dbc",
+          "cases": 1
+        }
+      ]
+    },
+    "disclaimer": "Система выявляет признаки возможных нарушений и направляет материалы на ручную проверку. Окончательное решение принимает аналитик."
+  },
+  "case_id": "7469314f-bc4d-4590-9f6b-916300e4b71a",
+  "image_case_id": "48acc96f-9605-4f3c-831d-901955ef19f0"
+}

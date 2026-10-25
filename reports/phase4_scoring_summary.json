@@ -1,0 +1,107 @@
+{
+  "scope": "training-only scoring and independent regression fixtures; no labelled quality evaluation",
+  "training_run": {
+    "completed": 720,
+    "incomplete": 0,
+    "failed": 0,
+    "file_error": null,
+    "rule_version": "1",
+    "config_fingerprint": "6b64f7a874d9b944d08ac8c2a2465f162a2ac9826e763f9d732ab0fd1d94f1e8",
+    "graph_enabled": false,
+    "disclaimer": "Система выявляет признаки возможных нарушений и направляет материалы на ручную проверку. Окончательное решение принимает аналитик.",
+    "levels": {
+      "lottery": {
+        "low": 635,
+        "medium": 17,
+        "high": 68
+      },
+      "casino": {
+        "low": 587,
+        "medium": 24,
+        "high": 109
+      },
+      "investment": {
+        "low": 607,
+        "medium": 60,
+        "high": 53
+      }
+    },
+    "feature_counts": {
+      "casino.gambling": 145,
+      "casino.gambling_promotion": 109,
+      "casino.no_gambling_offer": 2,
+      "casino.payout_claim": 55,
+      "casino.promotion": 109,
+      "casino.referral": 96,
+      "casino.reporting_context": 84,
+      "investment.payment_evidence": 200,
+      "investment.profit_promise": 113,
+      "investment.promise_recruitment": 53,
+      "investment.recruitment": 82,
+      "investment.reporting_context": 84,
+      "investment.risk_disclaimer": 56,
+      "investment.urgency": 53,
+      "lottery.free_participation": 24,
+      "lottery.organizer_income": 62,
+      "lottery.paid_random": 68,
+      "lottery.payment": 126,
+      "lottery.random_selection": 206,
+      "lottery.reporting_context": 82
+    },
+    "high_track_overlap": 20,
+    "languages": {
+      "unknown": 115,
+      "kk": 270,
+      "mixed": 114,
+      "ru": 221
+    },
+    "source_kinds": {
+      "screenshot": 240,
+      "transcript": 240,
+      "text": 240
+    }
+  },
+  "artifact_audit": {
+    "cases": 720,
+    "tracks": 2160,
+    "contributions": 1809,
+    "image_evidence": 650,
+    "text_evidence": 1478
+  },
+  "cache_reused_without_ocr": 720,
+  "frozen_dataset_files_checksum_verified": 406,
+  "queue_order_and_contribution_evidence_verified": true,
+  "final_tests": {
+    "tests": 219,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "source_sha256": {
+    "src/safenet/__init__.py": "41f14bd4bba96e7dfa72ca39b489070680f3b8665d410521eddbc2cdeef1fd3d",
+    "src/safenet/api.py": "b00f4d0ad82e7bd2ff88079d51ee076bc103c0339b4259efb1a2916974eda576",
+    "src/safenet/config.py": "168a9839436028ec0fcfe5e48284c4777549162397035e36ade44700b6301610",
+    "src/safenet/contracts.py": "b1c0a3372e8f76825b3f4c2e3bfd9809808e25dfdb04cd1adb60d6fc7ac08df2",
+    "src/safenet/entities.py": "0d9334af630803cd9039223e32a06fbc3768a5c082e9157a2da17cde404438df",
+    "src/safenet/errors.py": "b1dfd285ea8f05670e15ce32259dfdc1e6b98405e15a218891ec5a4016ae48f0",
+    "src/safenet/evaluation/__init__.py": "770a617c38cec113dc760d93c05954a7bc9c7904aa3983790604c82b393f0e19",
+    "src/safenet/evaluation/generate.py": "bc476e1903cc7ddd4d5f373b897f62007d1a176a515389ff84700596d76ebc85",
+    "src/safenet/evaluation/templates.py": "9ea2bd72b707fbe29e56215588bc1dabfe2a54458dbfaee28514e0de5aa65d49",
+    "src/safenet/features/__init__.py": "a67466a989d7209bb15038a01cee4092cdba91bc0b044794f836c4e06fa598aa",
+    "src/safenet/features/casino.py": "6fd4914f6dbbd3138c02cf62e7580b2685bfb80d39231f6d0cf3d3e9feeac98a",
+    "src/safenet/features/catalog.py": "56624250836b903755ce0046fe0db9d19ae387a31823452ce850d1b14947b857",
+    "src/safenet/features/common.py": "b843e4c4c633195b4e7aa3bc0ddc38044058298e56161955d8a8b7227fde656c",
+    "src/safenet/features/investment.py": "ccc5930f942f0282365a187891a50c2513073282b64c19d5970e271db48ba858",
+    "src/safenet/features/lottery.py": "a88c1d85b53e4adaf80d23189ac95f0cd84599e4abd2fc34bde193e0bc7b060f",
+    "src/safenet/normalization.py": "d436916c4fab4a868bcb524d3a2c178b064a0730488539b2c2a67191644b00dc",
+    "src/safenet/ocr.py": "342d95673ba03e4dda95000e91715c89839ce66779a7edb22124e96c81392265",
+    "src/safenet/ocr_worker.py": "add4254ce96e9e3ef41cc7cb7d3389a095758ac40353c5b2603534502e91c67c",
+    "src/safenet/pipeline.py": "914b71160d2f2dd77ce62d43b1a5a93d56cd80d730f477933bc9d46fe817a253",
+    "src/safenet/prepare.py": "09326e529be7ec629560d090807ce7145c807a26033a904301ef73e961d76b51",
+    "src/safenet/preprocessing.py": "e3f0f30073b5a60ef33d3cb9125d02066f8d740284fb2cbf9e9b3c954046caa5",
+    "src/safenet/privacy.py": "c8d5936a3e6f9b7955315da26ebd1a4127a8651f7d4ed5dc6e04484ac2593406",
+    "src/safenet/score.py": "1aeae326a3ece1b3c7c70c6bc9ea7f4123f7c9081ba3c73b0b94aa1d1d40541a",
+    "src/safenet/scoring.py": "1d28e5ba17c10e9b48ae4c15f63ce131a0c2e75d716fec9a3dea1393d2c05be2",
+    "src/safenet/storage.py": "aa8e58701427bb4bd810955ec4c26a7a895aa07620c008f6167488663b9fd69d"
+  }
+}
